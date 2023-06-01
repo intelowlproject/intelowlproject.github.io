@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@radix-ui/react-slot': ^1.0.2
   '@types/node': 20.2.5
   '@types/react': 18.2.7
   '@types/react-dom': 18.2.4
@@ -16,7 +15,6 @@ specifiers:
   typescript: 5.0.4
 
 dependencies:
-  '@radix-ui/react-slot': 1.0.2_bfoz4c5kom3f237nig75ykjhhy
   '@types/node': 20.2.5
   '@types/react': 18.2.7
   '@types/react-dom': 18.2.4
@@ -257,35 +255,6 @@ packages:
       open: 9.1.0
       picocolors: 1.0.0
       tslib: 2.5.2
-    dev: false
-
-  /@radix-ui/react-compose-refs/1.0.1_bfoz4c5kom3f237nig75ykjhhy:
-    resolution: {integrity: sha512-fDSBgd44FKHa1FRMU59qBMPFcl2PZE+2nmqunj+BWFyYYjnhIDWL2ItDs3rrbJDQOtzt5nIebLCQc4QRfz6LJw==}
-    peerDependencies:
-      '@types/react': '*'
-      react: ^16.8 || ^17.0 || ^18.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.22.3
-      '@types/react': 18.2.7
-      react: 18.2.0
-    dev: false
-
-  /@radix-ui/react-slot/1.0.2_bfoz4c5kom3f237nig75ykjhhy:
-    resolution: {integrity: sha512-YeTpuq4deV+6DusvVUW4ivBgnkHwECUu0BiN43L5UCDFgdhsRUWAghhTF5MbvNTPzmiFOx90asDSUjWuCNapwg==}
-    peerDependencies:
-      '@types/react': '*'
-      react: ^16.8 || ^17.0 || ^18.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.22.3
-      '@radix-ui/react-compose-refs': 1.0.1_bfoz4c5kom3f237nig75ykjhhy
-      '@types/react': 18.2.7
-      react: 18.2.0
     dev: false
 
   /@rushstack/eslint-patch/1.3.0:
