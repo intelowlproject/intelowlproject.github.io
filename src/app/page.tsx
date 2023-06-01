@@ -28,7 +28,7 @@ export default function Home() {
               <div></div>
               <Image
                 className="items center justify-center"
-                src="site/images/nodescomplete.png"
+                src="site/public/images/nodescomplete.png"
                 width={290}
                 height={250}
                 alt={""}
