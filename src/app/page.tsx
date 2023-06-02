@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
-import { Header } from "../../components/Header";
 
 export default function Home() {
   return (
@@ -105,10 +104,10 @@ export default function Home() {
             {" "}
             <a
               href="#"
-              className="inline-flex justify-between h-10 items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
-              <span className="text-xs h-10 bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3 text-center justify-center">
+              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3 text-center justify-center">
                 New
               </span>{" "}
               <span className="text-sm font-medium">100K+ Docker Pulls</span>
