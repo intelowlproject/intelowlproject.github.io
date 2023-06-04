@@ -134,7 +134,13 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <section id="video-section"></section>
+        <section id="video-section">
+          <div className="h-screen w-screen flex flex-col">
+            <div className="w-full h-16 bg-white">jsdb</div>
+            <div className="w-full h-40 bg-white" >jadbcj</div>
+
+          </div>
+        </section>
         <section id="feature-section"></section>
         <section id="testimonials-section"></section>
         <section className="h-screen w-screen bg-inherit"></section>
