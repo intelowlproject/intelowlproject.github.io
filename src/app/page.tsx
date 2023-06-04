@@ -62,7 +62,7 @@ export default function Home() {
         </div>
 
         <section id="hero-section" className="h-screen w-screen">
-          <div className="flex flex-row h-screen w-screen">
+          <div className="flex flex-row h-screen w-screen justify-center items-center mt-8">
             <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
               <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
                 Get Threat Intelligence data about a{" "}
@@ -95,10 +95,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <div
           id="quick-stats"
-          className="w-full h-14 items-center justify-center"
+          className="w-full flex flex-col h-14 items-center justify-center -mt-4"
         >
           <div className="flex flex-row w-full h-14 items-center justify-center space-x-6">
             {" "}
@@ -108,9 +107,12 @@ export default function Home() {
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3 text-center justify-center">
-                New
+                100+
               </span>{" "}
-              <span className="text-sm font-medium">100K+ Docker Pulls</span>
+              {/* link to prolly the docs where analyzers are explained */}
+              <span className="text-sm font-normal font-SpaceGrotesk ">
+                Analyzers
+              </span>
             </a>
             <a
               href="#"
@@ -118,9 +120,11 @@ export default function Home() {
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                New
+                20+
               </span>{" "}
-              <span className="text-sm font-medium">100K+ Docker Pulls</span>
+              <span className="text-sm font-SpaceGrotesk font-normal">
+                Connectors
+              </span>
             </a>
             <a
               href="#"
@@ -128,21 +132,247 @@ export default function Home() {
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                New
+                10+
               </span>{" "}
-              <span className="text-sm font-medium">100K+ Docker Pulls</span>
+              <span className="text-sm font-SpaceGrotesk font-normal">
+                Playbooks
+              </span>
             </a>
           </div>
         </div>
-        <section id="video-section">
-          <div className="h-screen w-screen flex flex-col">
-            <div className="w-full h-16 bg-white">jsdb</div>
-            <div className="w-full h-40 bg-white" >jadbcj</div>
-
+        <section
+          id="video-section"
+          className="flex flex-col items-center justify-center h-screen w-screen mt-14"
+        >
+          <div className="flex flex-col ">
+            <div
+              id="text"
+              className="flex flex-col w-full h-2/5 items-center justify-center"
+            >
+              <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
+                The OSINT Solution for
+              </h2>
+              <h3 className="text-center w-2/3 mx-auto text-white text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
+                getting threat intelligence data about a malware/IP/domain with
+                single API request.(need new content here)
+              </h3>
+            </div>
+          </div>
+          <br></br>
+          <div id="video" className="w-4/5 h-3/5 rounded-3xl ">
+            <a
+              className="rounded-3xl"
+              href="https://asciinema.org/a/377595"
+              target="_blank"
+            >
+              <img src="https://asciinema.org/a/377595.svg" alt="demo-vid" />
+            </a>
           </div>
         </section>
-        <section id="feature-section"></section>
-        <section id="testimonials-section"></section>
+        <section
+          id="feature-section"
+          className=" w-screen flex flex-col items-center justify-start xl:mt-14 mb-24"
+        >
+          <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
+            What do we provide?
+          </h2>
+          <h3 className="text-center w-2/3 mx-auto text-white text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mb-14">
+            this is what we provide, compared to others.
+          </h3>
+          <div id="all-feature-boxes" className="flex flex-col items-center ">
+            <div
+              id="feature-boxes"
+              className="flex flex-row w-5/6 xl:w-4/6 space-x-5 items-start justify-items-center mt-8"
+            >
+              <div className="w-[45%]  bg-[#1B1B23] rounded-2xl ">
+                <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
+                  feature Title
+                </h3>
+                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                  Intel Owl is composed of analyzers that can be run to retrieve
+                  data from external sources (like VirusTotal or AbuseIPDB) or
+                  to generate intel from internal analyzers (like Yara or
+                  Oletools)
+                </h4>
+              </div>
+              <div className="w-[55%] bg-[#17171D] rounded-xl">
+                <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
+                  feature Title
+                </h3>
+                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                  Intel Owl is composed of analyzers that can be run to retrieve
+                  data from external sources (like VirusTotal or AbuseIPDB) or
+                  to generate intel from internal analyzers (like Yara or
+                  Oletools) Intel Owl is composed of analyzers that can be run
+                  to retrieve data from external sources (like VirusTotal or
+                  AbuseIPDB) or to generate intel from internal analyzers (like
+                  Yara or Oletools)
+                </h4>
+              </div>
+            </div>
+            {/* if there's a problem in getting them in same depths, as in figma you basically make em of same width, ez */}
+            <div
+              id="feature-boxes"
+              className="flex flex-row w-5/6 xl:w-4/6 space-x-5 items-start justify-items-center mt-8"
+            >
+              <div className="w-[45%]  bg-[#1B1B23] rounded-2xl ">
+                <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
+                  feature Title
+                </h3>
+                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                  Intel Owl is composed of analyzers that can be run to retrieve
+                  data from external sources (like VirusTotal or AbuseIPDB) or
+                  to generate intel from internal analyzers (like Yara or
+                  Oletools)
+                </h4>
+              </div>
+              <div className="w-[55%] bg-[#17171D] rounded-xl">
+                <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
+                  feature Title
+                </h3>
+                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                  Intel Owl is composed of analyzers that can be run to retrieve
+                  data from external sources (like VirusTotal or AbuseIPDB) or
+                  to generate intel from internal analyzers (like Yara or
+                  Oletools) Intel Owl is composed of analyzers that can be run
+                  to retrieve data from external sources (like VirusTotal or
+                  AbuseIPDB) or to generate intel from internal analyzers (like
+                  Yara or Oletools)
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="testimonials-section"
+          className="h-screen w-screen flex flex-col items-center justify-start xl:mt-14 "
+        >
+          <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
+            What Theyre Saying
+          </h2>
+          <h3 className="text-center w-2/3 mx-auto text-white text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mb-14">
+            Dont just take our word for it, see what our satisfied customers and
+            valued partners have to say about intelowl.
+          </h3>
+          <div id="testimonials-element"></div>
+        </section>
+        {/* <div id="testimonials-element">
+            <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+              <div className="swiper-container !overflow-hidden">
+                <div className="swiper-wrapper">
+                  <div className="swiper-slide">
+                    <blockquote className="bg-gray-100 p-8">
+                      <div className="flex items-center gap-4">
+                        <img
+                          alt="Dog"
+                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                          className="h-16 w-16 rounded-full object-cover"
+                        />
+
+                        <div className="text-sm">
+                          <p className="font-medium">Bark Dagleish</p>
+                          <p className="mt-1">Head of Barketing</p>
+                        </div>
+                      </div>
+
+                      <p className="relative mt-4 text-gray-500">
+                        <span className="text-xl">&ldquo;</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni assumenda officiis sit amet itaque eveniet
+                        accusantium corporis tempora, soluta perspiciatis rerum,
+                        ratione animi nemo inventore repellat, commodi in esse
+                        quisquam.
+                        <span className="text-xl">&rdquo;</span>
+                      </p>
+                    </blockquote>
+                  </div>
+
+                  <div className="swiper-slide">
+                    <blockquote className="bg-gray-100 p-8">
+                      <div className="flex items-center gap-4">
+                        <img
+                          alt="Dog"
+                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                          className="h-16 w-16 rounded-full object-cover"
+                        />
+
+                        <div className="text-sm">
+                          <p className="font-medium">Bark Dagleish</p>
+                          <p className="mt-1">Head of Barketing</p>
+                        </div>
+                      </div>
+
+                      <p className="relative mt-4 text-gray-500">
+                        <span className="text-xl">&ldquo;</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni assumenda officiis sit amet itaque eveniet
+                        accusantium corporis tempora, soluta perspiciatis rerum,
+                        ratione animi nemo inventore repellat, commodi in esse
+                        quisquam.
+                        <span className="text-xl">&rdquo;</span>
+                      </p>
+                    </blockquote>
+                  </div>
+
+                  <div className="swiper-slide">
+                    <blockquote className="bg-gray-100 p-8">
+                      <div className="flex items-center gap-4">
+                        <img
+                          alt="Dog"
+                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                          className="h-16 w-16 rounded-full object-cover"
+                        />
+
+                        <div className="text-sm">
+                          <p className="font-medium">Bark Dagleish</p>
+                          <p className="mt-1">Head of Barketing</p>
+                        </div>
+                      </div>
+
+                      <p className="relative mt-4 text-gray-500">
+                        <span className="text-xl">&ldquo;</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni assumenda officiis sit amet itaque eveniet
+                        accusantium corporis tempora, soluta perspiciatis rerum,
+                        ratione animi nemo inventore repellat, commodi in esse
+                        quisquam.
+                        <span className="text-xl">&rdquo;</span>
+                      </p>
+                    </blockquote>
+                  </div>
+
+                  <div className="swiper-slide">
+                    <blockquote className="bg-gray-100 p-8">
+                      <div className="flex items-center gap-4">
+                        <img
+                          alt="Dog"
+                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                          className="h-16 w-16 rounded-full object-cover"
+                        />
+
+                        <div className="text-sm">
+                          <p className="font-medium">Bark Dagleish</p>
+                          <p className="mt-1">Head of Barketing</p>
+                        </div>
+                      </div>
+
+                      <p className="relative mt-4 text-gray-500">
+                        <span className="text-xl">&ldquo;</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni assumenda officiis sit amet itaque eveniet
+                        accusantium corporis tempora, soluta perspiciatis rerum,
+                        ratione animi nemo inventore repellat, commodi in esse
+                        quisquam.
+                        <span className="text-xl">&rdquo;</span>
+                      </p>
+                    </blockquote>
+                  </div>
+                </div>
+
+                <div className="swiper-pagination !relative !bottom-0 mt-12"></div>
+              </div>
+            </div>
+          </div> */}
         <section className="h-screen w-screen bg-inherit"></section>
       </main>
     </>
