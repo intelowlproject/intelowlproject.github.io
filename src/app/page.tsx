@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <>
       <main className="h-full w-full">
-        <div className="fixed z-50 w-full h-16 max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-gray-600">
+        <div className="fixed z-50 w-full h-16 max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
           <div className="grid h-full grid-cols-6 mx-auto items-center ml-6 ">
             <img
               className=""
