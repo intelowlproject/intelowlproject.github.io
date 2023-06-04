@@ -1,8 +1,37 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+import Swiper from "swiper";
 
 export default function Home() {
+  useEffect(() => {
+    const swiper = new Swiper(".swiper-container", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 8,
+      autoplay: {
+        delay: 8000,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1.5,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    });
+
+    return () => {
+      swiper.destroy();
+    };
+  }, []);
   return (
     <>
       <main className="h-full w-full">
@@ -184,22 +213,22 @@ export default function Home() {
               id="feature-boxes"
               className="flex flex-row w-5/6 xl:w-4/6 space-x-5 items-start justify-items-center mt-8"
             >
-              <div className="w-[45%]  bg-[#1B1B23] rounded-2xl ">
+              <div className="w-[45%]  bg-[#1B1B23] rounded-2xl border-solid border border-[#212123] ">
                 <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
                   feature Title
                 </h3>
-                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                <h4 className="text-lg font-SpaceGrotesk text-white px-5 py-5 opacity-70">
                   Intel Owl is composed of analyzers that can be run to retrieve
                   data from external sources (like VirusTotal or AbuseIPDB) or
                   to generate intel from internal analyzers (like Yara or
                   Oletools)
                 </h4>
               </div>
-              <div className="w-[55%] bg-[#17171D] rounded-xl">
+              <div className="w-[55%] bg-[#17171D] rounded-2xl border-solid border border-[#212123]">
                 <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
                   feature Title
                 </h3>
-                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                <h4 className="text-lg font-SpaceGrotesk text-white px-5 py-5 opacity-70">
                   Intel Owl is composed of analyzers that can be run to retrieve
                   data from external sources (like VirusTotal or AbuseIPDB) or
                   to generate intel from internal analyzers (like Yara or
@@ -215,22 +244,22 @@ export default function Home() {
               id="feature-boxes"
               className="flex flex-row w-5/6 xl:w-4/6 space-x-5 items-start justify-items-center mt-8"
             >
-              <div className="w-[45%]  bg-[#1B1B23] rounded-2xl ">
+              <div className="w-[45%]  bg-[#1B1B23] rounded-2xl border-solid border border-[#212123]">
                 <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
                   feature Title
                 </h3>
-                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                <h4 className="text-lg font-SpaceGrotesk text-white px-5 py-5 opacity-70">
                   Intel Owl is composed of analyzers that can be run to retrieve
                   data from external sources (like VirusTotal or AbuseIPDB) or
                   to generate intel from internal analyzers (like Yara or
                   Oletools)
                 </h4>
               </div>
-              <div className="w-[55%] bg-[#17171D] rounded-xl">
+              <div className="w-[55%] bg-[#17171D] rounded-2xl border-solid border border-[#212123]">
                 <h3 className="text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
                   feature Title
                 </h3>
-                <h4 className="text-xl font-SpaceGrotesk text-white px-5 py-5 opacity-70">
+                <h4 className="text-lg font-SpaceGrotesk text-white px-5 py-5 opacity-70">
                   Intel Owl is composed of analyzers that can be run to retrieve
                   data from external sources (like VirusTotal or AbuseIPDB) or
                   to generate intel from internal analyzers (like Yara or
@@ -245,7 +274,7 @@ export default function Home() {
         </section>
         <section
           id="testimonials-section"
-          className="h-screen w-screen flex flex-col items-center justify-start xl:mt-14 "
+          className="h-screen w-screen flex flex-col items-center justify-start xl:mt-16"
         >
           <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             What Theyre Saying
@@ -254,27 +283,12 @@ export default function Home() {
             Dont just take our word for it, see what our satisfied customers and
             valued partners have to say about intelowl.
           </h3>
-          <div id="testimonials-element"></div>
-        </section>
-        {/* <div id="testimonials-element">
+          <div id="testimonials-element" className="w-[90%]">
             <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
               <div className="swiper-container !overflow-hidden">
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
-                    <blockquote className="bg-gray-100 p-8">
-                      <div className="flex items-center gap-4">
-                        <img
-                          alt="Dog"
-                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
-                          className="h-16 w-16 rounded-full object-cover"
-                        />
-
-                        <div className="text-sm">
-                          <p className="font-medium">Bark Dagleish</p>
-                          <p className="mt-1">Head of Barketing</p>
-                        </div>
-                      </div>
-
+                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
                       <p className="relative mt-4 text-gray-500">
                         <span className="text-xl">&ldquo;</span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -284,24 +298,20 @@ export default function Home() {
                         quisquam.
                         <span className="text-xl">&rdquo;</span>
                       </p>
+                      <div className="flex items-center gap-4">
+                        <div className="text-lg mt-14">
+                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
+                            Abheek Tripathy
+                          </p>
+                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
+                            Frontend Engineer
+                          </p>
+                        </div>
+                      </div>
                     </blockquote>
                   </div>
-
                   <div className="swiper-slide">
-                    <blockquote className="bg-gray-100 p-8">
-                      <div className="flex items-center gap-4">
-                        <img
-                          alt="Dog"
-                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
-                          className="h-16 w-16 rounded-full object-cover"
-                        />
-
-                        <div className="text-sm">
-                          <p className="font-medium">Bark Dagleish</p>
-                          <p className="mt-1">Head of Barketing</p>
-                        </div>
-                      </div>
-
+                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
                       <p className="relative mt-4 text-gray-500">
                         <span className="text-xl">&ldquo;</span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -311,24 +321,20 @@ export default function Home() {
                         quisquam.
                         <span className="text-xl">&rdquo;</span>
                       </p>
+                      <div className="flex items-center gap-4">
+                        <div className="text-lg mt-14">
+                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
+                            Abheek Tripathy
+                          </p>
+                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
+                            Frontend Engineer
+                          </p>
+                        </div>
+                      </div>
                     </blockquote>
                   </div>
-
                   <div className="swiper-slide">
-                    <blockquote className="bg-gray-100 p-8">
-                      <div className="flex items-center gap-4">
-                        <img
-                          alt="Dog"
-                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
-                          className="h-16 w-16 rounded-full object-cover"
-                        />
-
-                        <div className="text-sm">
-                          <p className="font-medium">Bark Dagleish</p>
-                          <p className="mt-1">Head of Barketing</p>
-                        </div>
-                      </div>
-
+                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
                       <p className="relative mt-4 text-gray-500">
                         <span className="text-xl">&ldquo;</span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -338,24 +344,20 @@ export default function Home() {
                         quisquam.
                         <span className="text-xl">&rdquo;</span>
                       </p>
+                      <div className="flex items-center gap-4">
+                        <div className="text-lg mt-14">
+                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
+                            Abheek Tripathy
+                          </p>
+                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
+                            Frontend Engineer
+                          </p>
+                        </div>
+                      </div>
                     </blockquote>
                   </div>
-
                   <div className="swiper-slide">
-                    <blockquote className="bg-gray-100 p-8">
-                      <div className="flex items-center gap-4">
-                        <img
-                          alt="Dog"
-                          src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
-                          className="h-16 w-16 rounded-full object-cover"
-                        />
-
-                        <div className="text-sm">
-                          <p className="font-medium">Bark Dagleish</p>
-                          <p className="mt-1">Head of Barketing</p>
-                        </div>
-                      </div>
-
+                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
                       <p className="relative mt-4 text-gray-500">
                         <span className="text-xl">&ldquo;</span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -365,14 +367,25 @@ export default function Home() {
                         quisquam.
                         <span className="text-xl">&rdquo;</span>
                       </p>
+                      <div className="flex items-center gap-4">
+                        <div className="text-lg mt-14">
+                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
+                            Abheek Tripathy
+                          </p>
+                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
+                            Frontend Engineer
+                          </p>
+                        </div>
+                      </div>
                     </blockquote>
                   </div>
                 </div>
-
                 <div className="swiper-pagination !relative !bottom-0 mt-12"></div>
               </div>
             </div>
-          </div> */}
+          </div>
+        </section>
+
         <section className="h-screen w-screen bg-inherit"></section>
       </main>
     </>
