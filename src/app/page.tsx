@@ -1,42 +1,15 @@
-"use client";
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect } from "react";
-import Swiper from "swiper";
+import Slider from "../../components/Slider";
 
 export default function Home() {
-  useEffect(() => {
-    const swiper = new Swiper(".swiper-container", {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 8,
-      autoplay: {
-        delay: 8000,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 1.5,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-      },
-    });
-
-    return () => {
-      swiper.destroy();
-    };
-  }, []);
   return (
     <>
       <main className="h-full w-full">
-        <div className="fixed z-50 w-full h-16 max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
-          <div className="grid h-full grid-cols-6 mx-auto items-center ml-6 ">
+        <div className="fixed z-50 w-full h-16 max-w-xs md:max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
+          <div className="grid h-full grid-cols-6 mx-auto items-center ml-6  ">
             <img
               className=""
               src="images/intelowlwhite.png"
@@ -45,25 +18,25 @@ export default function Home() {
 
             <Link
               href={""}
-              className="text-white font-SpaceGrotesk font-light text-right"
+              className="text-white font-SpaceGrotesk font-light text-right invisible md:visible"
             >
               Features
             </Link>
             <Link
               href={""}
-              className="text-white font-SpaceGrotesk font-light text-right"
+              className="text-white font-SpaceGrotesk font-light text-right invisible md:visible"
             >
               Testimonials
             </Link>
             <Link
               href={""}
-              className="text-white font-SpaceGrotesk font-light text-right -ml-2"
+              className="text-white font-SpaceGrotesk font-light text-right -ml-2 invisible md:visible"
             >
               Sponsors
             </Link>
             <Link
               href={""}
-              className="text-white font-SpaceGrotesk font-light text-center"
+              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
             >
               Docs
             </Link>
@@ -283,110 +256,91 @@ export default function Home() {
             Dont just take our word for it, see what our satisfied customers and
             valued partners have to say about intelowl.
           </h3>
-          <div id="testimonials-element" className="w-[90%]">
-            <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-              <div className="swiper-container !overflow-hidden">
-                <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
-                      <p className="relative mt-4 text-gray-500">
-                        <span className="text-xl">&ldquo;</span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Magni assumenda officiis sit amet itaque eveniet
-                        accusantium corporis tempora, soluta perspiciatis rerum,
-                        ratione animi nemo inventore repellat, commodi in esse
-                        quisquam.
-                        <span className="text-xl">&rdquo;</span>
-                      </p>
-                      <div className="flex items-center gap-4">
-                        <div className="text-lg mt-14">
-                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
-                            Abheek Tripathy
-                          </p>
-                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
-                            Frontend Engineer
-                          </p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <div className="swiper-slide">
-                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
-                      <p className="relative mt-4 text-gray-500">
-                        <span className="text-xl">&ldquo;</span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Magni assumenda officiis sit amet itaque eveniet
-                        accusantium corporis tempora, soluta perspiciatis rerum,
-                        ratione animi nemo inventore repellat, commodi in esse
-                        quisquam.
-                        <span className="text-xl">&rdquo;</span>
-                      </p>
-                      <div className="flex items-center gap-4">
-                        <div className="text-lg mt-14">
-                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
-                            Abheek Tripathy
-                          </p>
-                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
-                            Frontend Engineer
-                          </p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <div className="swiper-slide">
-                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
-                      <p className="relative mt-4 text-gray-500">
-                        <span className="text-xl">&ldquo;</span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Magni assumenda officiis sit amet itaque eveniet
-                        accusantium corporis tempora, soluta perspiciatis rerum,
-                        ratione animi nemo inventore repellat, commodi in esse
-                        quisquam.
-                        <span className="text-xl">&rdquo;</span>
-                      </p>
-                      <div className="flex items-center gap-4">
-                        <div className="text-lg mt-14">
-                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
-                            Abheek Tripathy
-                          </p>
-                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
-                            Frontend Engineer
-                          </p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                  <div className="swiper-slide">
-                    <blockquote className="bg-[#16161D] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] ">
-                      <p className="relative mt-4 text-gray-500">
-                        <span className="text-xl">&ldquo;</span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Magni assumenda officiis sit amet itaque eveniet
-                        accusantium corporis tempora, soluta perspiciatis rerum,
-                        ratione animi nemo inventore repellat, commodi in esse
-                        quisquam.
-                        <span className="text-xl">&rdquo;</span>
-                      </p>
-                      <div className="flex items-center gap-4">
-                        <div className="text-lg mt-14">
-                          <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
-                            Abheek Tripathy
-                          </p>
-                          <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-lg">
-                            Frontend Engineer
-                          </p>
-                        </div>
-                      </div>
-                    </blockquote>
-                  </div>
-                </div>
-                <div className="swiper-pagination !relative !bottom-0 mt-12"></div>
-              </div>
-            </div>
-          </div>
+
+          <Slider></Slider>
         </section>
 
-        <section className="h-screen w-screen bg-inherit"></section>
+        <section className="flex flex-col items-center justify-start w-screen h-screen">
+          <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
+            FAQs
+          </h2>
+          <h3 className="text-center w-2/3 mx-auto text-white text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mb-16">
+            Dont just take our word for it, see what our satisfied customers and
+            valued partners have to say about intelowl.
+          </h3>
+          <div className="w-full lg:max-w-screen-md xl:max-w-screen-lg mt-5 space-y-5">
+            <button className="w-full border-b-2 border-gray-500 pb-6 text-left group focus:outline-none">
+              <div className="text-lg font-semibold text-white font-SpaceGrotesk opacity-90">
+                Q: Is it only compatible on Linux?
+              </div>
+              <div className="mt-3 hidden text-white group-focus:flex font-SpaceGrotesk font-light opacity-70">
+                <p>
+                  IntelOwl is tested and supported to work in a Linux-based OS.
+                  It may also run on windows, but that is not officially
+                  supported yet. And Regarding client, i.e., Web-Interface or
+                  pyintelowl can be accessed anywhere regardless of Operating
+                  System.
+                </p>
+              </div>
+            </button>
+            <button className="w-full border-b-2 border-gray-500 pb-6 text-left group focus:outline-none">
+              <div className="text-lg font-semibold text-white font-SpaceGrotesk opacity-90">
+                Q: Is it only compatible on Linux?
+              </div>
+              <div className="mt-3 hidden text-white group-focus:flex font-SpaceGrotesk font-light opacity-70">
+                <p>
+                  IntelOwl is tested and supported to work in a Linux-based OS.
+                  It may also run on windows, but that is not officially
+                  supported yet. And Regarding client, i.e., Web-Interface or
+                  pyintelowl can be accessed anywhere regardless of Operating
+                  System.
+                </p>
+              </div>
+            </button>
+            <button className="w-full border-b-2 border-gray-500 pb-6 text-left group focus:outline-none">
+              <div className="text-lg font-semibold text-white font-SpaceGrotesk opacity-90">
+                Q: Is it only compatible on Linux?
+              </div>
+              <div className="mt-3 hidden text-white group-focus:flex font-SpaceGrotesk font-light opacity-70">
+                <p>
+                  IntelOwl is tested and supported to work in a Linux-based OS.
+                  It may also run on windows, but that is not officially
+                  supported yet. And Regarding client, i.e., Web-Interface or
+                  pyintelowl can be accessed anywhere regardless of Operating
+                  System.
+                </p>
+              </div>
+            </button>
+            <button className="w-full border-b-2 border-gray-500 pb-6 text-left group focus:outline-none">
+              <div className="text-lg font-semibold text-white font-SpaceGrotesk opacity-90">
+                Q: Is it only compatible on Linux?
+              </div>
+              <div className="mt-3 hidden text-white group-focus:flex font-SpaceGrotesk font-light opacity-70">
+                <p>
+                  IntelOwl is tested and supported to work in a Linux-based OS.
+                  It may also run on windows, but that is not officially
+                  supported yet. And Regarding client, i.e., Web-Interface or
+                  pyintelowl can be accessed anywhere regardless of Operating
+                  System.
+                </p>
+              </div>
+            </button>
+          </div>
+        </section>
+        <section
+          id="sponsor-section"
+          className="h-screen w-screen flex flex-col items-center justify-start xl:mt-16"
+        >
+          <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
+            Our Sponsors
+          </h2>
+          <h3 className="text-center w-2/3 mx-auto text-white text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mb-14">
+            We need sponsors to improve the project and let it grow stronger and
+            stronger. This the list of our sponsors and donators.
+          </h3>
+
+          <Slider></Slider>
+        </section>
       </main>
     </>
   );
