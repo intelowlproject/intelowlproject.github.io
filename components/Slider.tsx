@@ -1,7 +1,5 @@
 "use client"
 
-import { useEffect } from "react";
-import Swiper from "swiper";
 
 export default function Slider() {
     useEffect(() => {
