@@ -1,7 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
-import Link from "next/link";
 import Slider from "../../components/Slider";
 import HeroSection from "../../components/sections/HeroSection";
 import { Header } from "../../components/Header";

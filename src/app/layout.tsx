@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'IntelOwlProject',
   description: 'Solving real Cyber Threat Intelligence problems with Open Source Projects',
+  icons: {
+    icon: '/site/images/favicon.png',
+  },
 }
 
 export default function RootLayout({
