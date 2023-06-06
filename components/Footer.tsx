@@ -11,7 +11,7 @@ export default function Footer(){
                   className="mb-6 inline-block max-w-[160px]"
                 >
                   <img
-                    src="/images/intelowlwhite.png"
+                    src="/site/images/intelowlwhite.png"
                     alt="logo"
                     className="max-w-full"
                   />
