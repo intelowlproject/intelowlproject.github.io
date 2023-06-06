@@ -6,6 +6,8 @@ import Link from "next/link";
 import Slider from "../../components/Slider";
 import { useEffect, useState } from "react";
 import Swiper from "swiper";
+import HeroSection from "../../components/sections/HeroSection";
+import { Header } from "../../components/Header";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -50,8 +52,9 @@ export default function Home() {
 
   return (
     <>
+    <Header></Header>
       <main className="h-full w-full">
-        <div className="fixed z-50 w-full h-16 max-w-xs md:max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
+        {/* <div className="fixed z-50 w-full h-16 max-w-xs md:max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
           <div className="grid h-full grid-cols-6 mx-auto items-center ml-6  ">
             <img
               className=""
@@ -104,10 +107,10 @@ export default function Home() {
               </Link>
             </span>
           </div>
-        </div>
+        </div> */}
 
         <section id="hero-section-md" className="h-screen w-screen">
-          <div className="flex flex-row h-screen w-screen justify-center items-center mt-8">
+          {/* <div className="flex flex-row h-screen w-screen justify-center items-center mt-8">
             <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
               <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
                 Get Threat Intelligence data about a{" "}
@@ -138,7 +141,8 @@ export default function Home() {
                 alt={""}
               />
             </div>
-          </div>
+          </div> */}
+          <HeroSection></HeroSection>
         </section>
         {/* <section id="hero-section-mobile" className="h-screen w-screen visible md:hidden">
           <div className="flex flex-col w-screen justify-center items-center mt-8">
