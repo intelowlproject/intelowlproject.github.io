@@ -4,10 +4,23 @@
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "../../components/Slider";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Swiper from "swiper";
 
 export default function Home() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    handleResize(); 
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize); 
+    };
+  }, []);
+  
   useEffect(() => {
     const swiper = new Swiper(".swiper-container", {
       loop: true,
@@ -93,7 +106,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section id="hero-section-md" className="h-screen w-screen invisible md:visible">
+        <section id="hero-section-md" className="h-screen w-screen">
           <div className="flex flex-row h-screen w-screen justify-center items-center mt-8">
             <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
               <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
@@ -127,6 +140,40 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* <section id="hero-section-mobile" className="h-screen w-screen visible md:hidden">
+          <div className="flex flex-col w-screen justify-center items-center mt-8">
+            <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
+              <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
+                Get Threat Intelligence data about a{" "}
+                <span className="text-[#00ADEF]">hash.</span>
+              </h1>
+              <h2 className=" text-white text-left text-3xl lg:text-3xl xl:text-4xl mt-8 font-SpaceGrotesk font-extralight">
+                From multiple sources with just a{" "}
+                <span className="text-[#00ADEF]">
+                  single
+                  <br /> API request.
+                </span>
+              </h2>
+              <Link
+                href={
+                  "https://intelowl.readthedocs.io/en/latest/Installation.html"
+                }
+                className="btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 px-4 rounded w-36 h-10 mt-16 font-SpaceGrotesk text-center"
+              >
+                get started ➔
+              </Link>
+            </div>
+            <div className="bg-inherit h-screen w-2/6 flex flex-col items-center justify-center px-10">
+              <Image
+                className="items center justify-center"
+                src="images/nodescomplete.png"
+                width={290}
+                height={250}
+                alt={""}
+              />
+            </div>
+          </div>
+        </section> */}
         <div
           id="quick-stats"
           className="w-full flex flex-col h-14 items-center justify-center -mt-4 invisible md:visible"
@@ -573,24 +620,25 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <Slider></Slider>
       </main>
       <footer className="relative z-50 bg-[#17171D] pt-32 mt-32 pb-10 lg:pt-[120px] lg:pb-20 rounded-t-[75px]">
-  <div className="container mx-auto">
-    <div className="-mx-4 flex flex-wrap justify-around">
-      <div className="w-full px-4 sm:w-2/3 lg:w-6/12">
-        <div className="mb-10 w-full">
+        <div className="container mx-auto">
+          <div className="-mx-4 flex flex-wrap justify-around">
+            <div className="w-full px-4 sm:w-2/3 lg:w-6/12">
+              <div className="mb-10 w-full">
           <a href="javascript:void(0)" className="mb-6 inline-block max-w-[160px]">
-            <img
-              src="/images/intelowlwhite.png"
-              alt="logo"
-              className="max-w-full"
-            />
-          </a>
-          <p className="text-body-color mb-7 text-base text-white">
+                  <img
+                    src="/images/intelowlwhite.png"
+                    alt="logo"
+                    className="max-w-full"
+                  />
+                </a>
+                <p className="text-body-color mb-7 text-base text-white">
             Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem
             totam rem aperiam.
-          </p>
-          {/* <p className="text-dark flex items-center text-sm font-medium">
+                </p>
+                {/* <p className="text-dark flex items-center text-sm font-medium">
             <span className="text-primary mr-3">
               <svg
                 width="19"
@@ -611,51 +659,53 @@ export default function Home() {
             </span>
             <span>+012 (345) 678 99</span>
           </p> */}
+              </div>
+            </div>
+            <div className="w-full px-4 sm:w-1/2 lg:w-6/12">
+              <div className="mb-10 w-full text-white">
+                <h4 className="text-dark mb-9 text-lg font-semibold">
+                  Resources
+                </h4>
+                <ul>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                    >
+                      SaaS Development
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                    >
+                      Our Products
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                    >
+                      User Flow
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                    >
+                      User Strategy
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="w-full px-4 sm:w-1/2 lg:w-6/12">
-        <div className="mb-10 w-full text-white">
-          <h4 className="text-dark mb-9 text-lg font-semibold">Resources</h4>
-          <ul>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
-              >
-                SaaS Development
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
-              >
-                Our Products
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
-              >
-                User Flow
-              </a>
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
-              >
-                User Strategy
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 
-</footer>
+      </footer>
     </>
   );
 }
