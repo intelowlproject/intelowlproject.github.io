@@ -1,7 +1,7 @@
 export default function FeatureSection() {
 
     return(
-      <div>
+      <div id="">
       <div className="mx-auto max-w-screen-lg px-8 py-16 sm:px-6 ">
         <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-2 lg:gap-8">
           <div className=" mb-8 bg-[#17171D] sm:break-inside-avoid rounded-2xl border-solid border border-[#212123]">
