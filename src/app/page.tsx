@@ -94,7 +94,7 @@ export default function Home() {
             Dont just take our word for it, see what our satisfied customers and
             valued partners have to say about intelowl.
           </h3>
-          <Slider></Slider>
+          <Slider isTestimonial={true}></Slider>
         </section>
         <section
           id="faq-section"
@@ -120,7 +120,7 @@ export default function Home() {
             We need sponsors to improve the project and let it grow stronger and
             stronger. This the list of our sponsors and donators.
           </h3>
-          <Slider></Slider>
+          <Slider isTestimonial={false}></Slider>
         </section>
       </main>
       <Footer></Footer>
