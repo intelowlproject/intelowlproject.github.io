@@ -9,16 +9,16 @@ import FAQSection from "../../components/sections/FAQSection";
 export default function Home() {
   return (
     <>
-      <Header></Header>
+      <Header />
       <main className="h-full w-full">
         <section
           id="hero-section-md"
           className="md:w-screen md:h-screen hidden md:table"
         >
-          <HeroSection isMobile={false}></HeroSection>
+          <HeroSection isMobile={false} />
         </section>
         <section id="hero-section-mobile" className="w-screen md:hidden">
-          ˝<HeroSection isMobile={true}></HeroSection>
+          <HeroSection isMobile={true} />
         </section>
         <div
           id="quick-stats"
@@ -69,7 +69,7 @@ export default function Home() {
           id="video-section"
           className="flex flex-col items-center justify-center md:h-screen md:w-screen mt-14"
         >
-          <VideoSection></VideoSection>
+          <VideoSection />
         </section>
         <section
           id="feature-section"
@@ -81,7 +81,7 @@ export default function Home() {
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
             this is what we provide, compared to others.
           </h3>
-          <FeatureSection></FeatureSection>
+          <FeatureSection />
         </section>
         <section
           id="testimonials-section"
@@ -94,7 +94,7 @@ export default function Home() {
             Dont just take our word for it, see what our satisfied customers and
             valued partners have to say about intelowl.
           </h3>
-          <Slider isTestimonial={true}></Slider>
+          <Slider isTestimonial={true} />
         </section>
         <section
           id="faq-section"
@@ -107,7 +107,7 @@ export default function Home() {
             Dont just take our word for it, see what our satisfied customers and
             valued partners have to say about intelowl.
           </h3>
-          <FAQSection></FAQSection>
+          <FAQSection />
         </section>
         <section
           id="sponsor-section"
@@ -120,10 +120,10 @@ export default function Home() {
             We need sponsors to improve the project and let it grow stronger and
             stronger. This the list of our sponsors and donators.
           </h3>
-          <Slider isTestimonial={false}></Slider>
+          <Slider isTestimonial={false} />
         </section>
       </main>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }

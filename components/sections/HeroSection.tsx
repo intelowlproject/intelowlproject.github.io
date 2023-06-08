@@ -25,7 +25,10 @@ export default function HeroSection(props: HeroSectionProps) {
   return (
     <>
       {isMobile ? (
-        <div id="hero-section" className="flex flex-col w-screen justify-items-end space-y-5 items-end mt-32 pb-24">
+        <div
+          id="hero-section"
+          className="flex flex-col w-screen justify-items-end space-y-5 items-end mt-32 pb-24"
+        >
           <div className="bg-inherit w-full flex flex-col items-center justify-center px-5">
             <h1 className="text-white text-center text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
               Get Threat Intelligence data about a{" "}
@@ -60,7 +63,10 @@ export default function HeroSection(props: HeroSectionProps) {
           </div>
         </div>
       ) : (
-        <div id="hero-section" className="flex flex-row h-screen w-screen justify-center items-center mt-8">
+        <div
+          id="hero-section"
+          className="flex flex-row h-screen w-screen justify-center items-center mt-8"
+        >
           <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
             <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
               Get Threat Intelligence data about a{" "}

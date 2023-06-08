@@ -1,24 +1,24 @@
 export const Sponsordata = [
     {
-        companyname: "ushf",
+        companyname: "ushfhjhb",
         companylevel: "bronze",
         companylogo: "/site/images/intelowlwhite.png",
         companydesc: "akjda jlfal jfbjabj lablj abajl bajlfjl fbalj fbajlf bajlfb ajl bajlfbasljf bajlf basjlfba"
     },
     {
-        companyname: "ushf",
+        companyname: "ushfkjbk",
         companylevel: "bronze",
         companylogo: "/site/images/intelowlwhite.png",
         companydesc: "akjda jlfal jfbjabj lablj abajl bajlfjl fbalj fbajlf bajlfb ajl bajlfbasljf bajlf basjlfba"
     },
     {
-        companyname: "ushf",
+        companyname: "ushfjkhkj",
         companylevel: "bronze",
         companylogo: "/site/images/intelowlwhite.png",
         companydesc: "akjda jlfal jfbjabj lablj abajl bajlfjl fbalj fbajlf bajlfb ajl bajlfbasljf bajlf basjlfba"
     },
     {
-        companyname: "ushf",
+        companyname: "ushfhgu",
         companylevel: "bronze",
         companylogo: "/site/images/intelowlwhite.png",
         companydesc: "akjda jlfal jfbjabj lablj abajl bajlfjl fbalj fbajlf bajlfb ajl bajlfbasljf bajlf basjlfba"
