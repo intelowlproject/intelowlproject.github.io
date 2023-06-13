@@ -9,7 +9,7 @@ import FAQSection from "../../components/sections/FAQSection";
 export default function Home() {
   return (
     <>
-      <Header />
+      <Header blogsection={false} />
       <main className="h-full w-full">
         <section
           id="hero-section-md"
