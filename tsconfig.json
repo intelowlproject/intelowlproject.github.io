@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "/site/",
     "paths": {
       "contentlayer/generated": ["./.contentlayer/generated"],
       "@/*": ["./src/*"]
