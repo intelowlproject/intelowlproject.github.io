@@ -13,32 +13,40 @@ interface sliderProps {
 export default function Slider(props: sliderProps) {
   const { isTestimonial } = props;
   useEffect(() => {
-    const swiper = new Swiper(".swiper-container", {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 8,
-      autoplay: {
-        delay: 8000,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 1.5,
+    let swiper: Swiper | null = null; // Declare swiper variable
+  
+    const initializeSwiper = () => {
+      swiper = new Swiper(".swiper-container", {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 8,
+        autoplay: {
+          delay: 8000,
         },
-        1024: {
-          slidesPerView: 3,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
-      },
-    });
-
+        breakpoints: {
+          640: {
+            slidesPerView: 1.5,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    };
+  
+    initializeSwiper(); // Initialize swiper
+  
     return () => {
-      swiper.destroy();
+      if (swiper && typeof swiper.destroy === "function") {
+        swiper.destroy(); // Call destroy function if available
+      }
     };
   }, []);
-
+  
   return (
     <>
       {isTestimonial ? (

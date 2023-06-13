@@ -56,7 +56,7 @@ export default function HeroSection(props: HeroSectionProps) {
                 transition={{
                   duration: 2,
                 }}
-                src="/site/images/linegraphic.png"
+                src="images/linegraphic.png"
                 alt={""}
               />
             </div>
@@ -97,7 +97,7 @@ export default function HeroSection(props: HeroSectionProps) {
                 transition={{
                   duration: 2,
                 }}
-                src="/site/images/linegraphic.png"
+                src="images/linegraphic.png"
                 alt={""}
               />
             </div>
