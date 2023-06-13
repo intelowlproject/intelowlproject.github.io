@@ -1,7 +1,7 @@
 import { format, parseISO } from 'date-fns'
-import { allPosts } from 'contentlayer/generated'
-import { Header } from 'components/Header'
-import Footer from 'components/Footer'
+import { allPosts } from '../../../../.contentlayer/generated'
+import { Header } from '../../../../components/Header'
+import Footer from '../../../../components/Footer'
 
 export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
 
