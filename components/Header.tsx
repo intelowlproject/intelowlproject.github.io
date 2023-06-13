@@ -110,7 +110,7 @@ export function Header(props: Headerprops) {
               Sponsors
             </Link>
             <Link
-              href={"/blogs"}
+              href="/blogs"
               className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
             >
               Blogs
