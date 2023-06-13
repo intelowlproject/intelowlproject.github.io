@@ -26,7 +26,7 @@ export function Header(props: Headerprops) {
             <Link href={"/"}>
               <img
                 className=""
-                src="images/intelowlwhite.png"
+                src="/images/intelowlwhite.png"
                 alt="intelowl logo"
               ></img>
             </Link>
@@ -61,7 +61,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="images/githublogo.png"
+                  src="/images/githublogo.png"
                   alt="intelowl logo"
                 />
               </Link>
@@ -70,7 +70,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="images/twitterlogo.png"
+                  src="/images/twitterlogo.png"
                   alt="intelowl logo"
                 />
               </Link>
