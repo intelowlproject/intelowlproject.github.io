@@ -22,12 +22,32 @@ Features in `featuresdata.ts`
 Testimonials in `testimonialdata.ts`
  ```(json)
 {
-        "id": "1",
-        "title":"feature name",
-        "description":"feature desc"
-}
+        name: "meh",
+        designation: "engineer",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."  
+ },
+```
+Sponsors in `sponsordata.ts`
+```
+{
+        companyname: "ushfhjhb",
+        companylevel: "bronze",
+        companylogo: "image path",
+        companydesc: "akjda jlfal jfbjabj lablj absjlfba"
+ },
 ```
 
+
+Faq's in `faqdata.ts`
+```
+{
+        question: "Lorem ipsum dolor sit a",
+        answer:"Lorem ipsum dolor sit a Lorem ipsum dolor sit a"
+ },
+```
+
+### **Adding up blogs.**
+Add your blog as a new markdown file in the blogs directory with the same title as the file.
 
 
 
