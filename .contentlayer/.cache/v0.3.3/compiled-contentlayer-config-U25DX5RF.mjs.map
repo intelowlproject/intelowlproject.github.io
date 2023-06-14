@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.ts"],
+  "sourcesContent": ["import { defineDocumentType, makeSource } from '@contentlayer/source-files'\n\nexport const Post = defineDocumentType(() => ({\n  name: 'Post',\n  filePathPattern: `**/*.md`,\n  fields: {\n    title: { type: 'string', required: true },\n    date: { type: 'date', required: true },\n  },\n  computedFields: {\n    url: { type: 'string', resolve: (post) => `/blogs/${post._raw.flattenedPath}` },\n  },\n}))\n\nexport default makeSource({ contentDirPath: 'blogs', documentTypes: [Post] })\n"],
+  "mappings": ";AAAA,SAAS,oBAAoB,kBAAkB;AAExC,IAAM,OAAO,mBAAmB,OAAO;AAAA,EAC5C,MAAM;AAAA,EACN,iBAAiB;AAAA,EACjB,QAAQ;AAAA,IACN,OAAO,EAAE,MAAM,UAAU,UAAU,KAAK;AAAA,IACxC,MAAM,EAAE,MAAM,QAAQ,UAAU,KAAK;AAAA,EACvC;AAAA,EACA,gBAAgB;AAAA,IACd,KAAK,EAAE,MAAM,UAAU,SAAS,CAAC,SAAS,UAAU,KAAK,KAAK,gBAAgB;AAAA,EAChF;AACF,EAAE;AAEF,IAAO,8BAAQ,WAAW,EAAE,gBAAgB,SAAS,eAAe,CAAC,IAAI,EAAE,CAAC;",
+  "names": []
+}
