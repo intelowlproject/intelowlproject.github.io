@@ -8,7 +8,7 @@
 
 ### **Adding up a new feature/testimonial/sponsor.**
 
-In Constants folder, you can add the content for specific section in thier specific file in form of these json objects, no need to scour the codebase.
+In [Constants folder](https://github.com/intelowlproject/site/tree/develop/constants), you can add the content for specific section in thier specific file in form of these json objects, no need to scour the codebase.
 
 Features in `featuresdata.ts`
  ```(json)
@@ -25,7 +25,7 @@ Testimonials in `testimonialdata.ts`
         name: "meh",
         designation: "engineer",
         review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."  
- },
+}
 ```
 Sponsors in `sponsordata.ts`
 ```
@@ -34,7 +34,7 @@ Sponsors in `sponsordata.ts`
         companylevel: "bronze",
         companylogo: "image path",
         companydesc: "akjda jlfal jfbjabj lablj absjlfba"
- },
+}
 ```
 
 
@@ -43,11 +43,11 @@ Faq's in `faqdata.ts`
 {
         question: "Lorem ipsum dolor sit a",
         answer:"Lorem ipsum dolor sit a Lorem ipsum dolor sit a"
- },
+}
 ```
 
 ### **Adding up blogs.**
-Add your blog as a new markdown file in the blogs directory with the same title as the file.
+Add your blog as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/site/tree/develop/Blogs) with the same title as the file.
 
 
 
