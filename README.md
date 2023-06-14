@@ -51,5 +51,5 @@ Add your blog as a new markdown file in the [Blogs directory](https://github.com
 
 
 **Note**
-For any newer images/pdf's/media to be added, the path shall be `/site/{image.png}` rather than `/image.png` this is due to how routes are handled while deploying to github pages.
+For any newer images/pdf's/media to be added, the path shall be `/site/{yourimage.png}` rather than `/{yourimage.png}` this is due to how routes are handled while deploying to github pages.
 
