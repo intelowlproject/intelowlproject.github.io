@@ -26,7 +26,7 @@ export function Header(props: Headerprops) {
             <Link href={"/"}>
               <img
                 className=""
-                src="/images/intelowlwhite.png"
+                src="/site/images/intelowlwhite.png"
                 alt="intelowl logo"
               ></img>
             </Link>
@@ -61,7 +61,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/images/githublogo.png"
+                  src="/site/images/githublogo.png"
                   alt="intelowl logo"
                 />
               </Link>
@@ -70,7 +70,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/images/twitterlogo.png"
+                  src="/site/images/twitterlogo.png"
                   alt="intelowl logo"
                 />
               </Link>
@@ -83,7 +83,7 @@ export function Header(props: Headerprops) {
             <Link href="#hero-section" onClick={handleScroll}>
               <img
                 className=""
-                src="images/intelowlwhite.png"
+                src="/site/images/intelowlwhite.png"
                 alt="intelowl logo"
               ></img>
             </Link>
@@ -121,7 +121,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="images/githublogo.png"
+                  src="/site/images/githublogo.png"
                   alt="intelowl logo"
                 />
               </Link>
@@ -130,7 +130,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="images/twitterlogo.png"
+                  src="/site/images/twitterlogo.png"
                   alt="intelowl logo"
                 />
               </Link>
