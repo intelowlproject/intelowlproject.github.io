@@ -50,4 +50,6 @@ Faq's in `faqdata.ts`
 Add your blog as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/site/tree/develop/Blogs) with the same title as the file.
 
 
+**Note**
+For any newer images/pdf's/media to be added, the path shall be `/site/{image.png}` rather than `/image.png` this is due to how routes are handled while deploying to github pages.
 
