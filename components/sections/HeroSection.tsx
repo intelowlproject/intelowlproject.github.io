@@ -2,7 +2,6 @@
 
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -13,7 +12,7 @@ interface HeroSectionProps {
 
 export default function HeroSection(props: HeroSectionProps) {
   const { isMobile } = props;
-  const [words, setWords] = useState(["hash.", "ip.", "malware.", "domain."]);
+  const [words] = useState(["hash.", "ip.", "malware.", "domain."]);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {

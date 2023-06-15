@@ -1,13 +1,13 @@
 import { Header } from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import Link from "next/link";
-import { compareDesc, format, parseISO } from "date-fns";
-import { allPosts, Post } from "../../../.contentlayer/generated";
+import { compareDesc} from "date-fns";
+import { allPosts } from "../../../.contentlayer/generated";
 
 
 export default function BlogsPage() {
-  const posts = allPosts.sort((a, b) =>
-    compareDesc(new Date(a.date), new Date(b.date))
+  const posts = allPosts.sort((firstPost, secondPost) =>
+    compareDesc(new Date(firstPost.date), new Date(secondPost.date))
   );
   return (
     <>

@@ -38,7 +38,7 @@ export default function Slider(props: sliderProps) {
       });
     };
   
-    initializeSwiper(); // Initialize swiper
+    initializeSwiper();
   
     return () => {
       if (swiper && typeof swiper.destroy === "function") {
