@@ -13,11 +13,12 @@ In [Constants folder](https://github.com/intelowlproject/site/tree/develop/const
 Features in `featuresdata.ts`
  ```(json)
 {
-        "id": "1",
+        "color": "lighter",
         "title":"feature name",
         "description":"feature desc"
 }
 ```
+(color here defines the shade of the container which would be rendered.)
 
 Testimonials in `testimonialdata.ts`
  ```(json)

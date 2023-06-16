@@ -5,7 +5,7 @@ export default function FeatureSection() {
       <div className="mx-auto max-w-screen-lg px-8 py-16 sm:px-6 ">
         <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-2 lg:gap-8">
           {FeaturesData.map((feature, index) => {
-            if (feature.id === "1") {
+            if (feature.color === "darker") {
               return (
                 <div
                   key={index}
@@ -19,7 +19,7 @@ export default function FeatureSection() {
                   </h4>
                 </div>
               );
-            } else if (feature.id === "2") {
+            } else if (feature.color === "lighter") {
               return (
                 <div
                   key={index}
