@@ -115,7 +115,7 @@ export default function Home() {
             FAQs
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2 mb-14 ">
-            Don't worry! We are here to help. In case you don't find the answer that you are looking for, feel free to contact us
+            Don&apos;t worry! We are here to help. In case you don&apos;t find the answer that you are looking for, feel free to contact us
           </h3>
           <FAQSection />
         </section>
