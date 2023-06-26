@@ -27,12 +27,12 @@ export default function Home() {
           <div className="flex flex-row w-full h-14 items-center justify-center space-x-6">
             {" "}
             <a
-              href="#"
+              href="https://intelowl.readthedocs.io/en/latest/Usage.html#analyzers"
               className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3 text-center justify-center">
-                100+
+                150+
               </span>{" "}
               {/* link to prolly the docs where analyzers are explained */}
               <span className="text-sm font-normal font-SpaceGrotesk ">
@@ -40,27 +40,39 @@ export default function Home() {
               </span>
             </a>
             <a
-              href="#"
+              href="https://intelowl.readthedocs.io/en/latest/Usage.html#connectors"
               className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                20+
+                5+
               </span>{" "}
               <span className="text-sm font-SpaceGrotesk font-normal">
                 Connectors
               </span>
             </a>
             <a
-              href="#"
+              href="https://intelowl.readthedocs.io/en/latest/Usage.html#playbooks"
               className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                10+
+                5+
               </span>{" "}
               <span className="text-sm font-SpaceGrotesk font-normal">
                 Playbooks
+              </span>
+            </a>
+            <a
+              href="https://intelowl.readthedocs.io/en/latest/Usage.html#visualizers"
+              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              role="alert"
+            >
+              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
+                5+
+              </span>{" "}
+              <span className="text-sm font-SpaceGrotesk font-normal">
+                Visualizers
               </span>
             </a>
           </div>
@@ -88,11 +100,10 @@ export default function Home() {
           className="md:h-screen w-screen flex flex-col items-center justify-start xl:mt-16"
         >
           <h2 className="text-center text-2xl text-white md:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
-            What Theyre Saying
+            Testimonials
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
-            Dont just take our word for it, see what our satisfied customers and
-            valued partners have to say about intelowl.
+            We love to work with the community to improve the project. This is what users and contributors say about IntelOwl.
           </h3>
           <Slider isTestimonial={true} />
         </section>
@@ -104,8 +115,7 @@ export default function Home() {
             FAQs
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2 mb-14 ">
-            Dont just take our word for it, see what our satisfied customers and
-            valued partners have to say about intelowl.
+            Don't worry! We are here to help. In case you don't find the answer that you are looking for, feel free to contact us
           </h3>
           <FAQSection />
         </section>

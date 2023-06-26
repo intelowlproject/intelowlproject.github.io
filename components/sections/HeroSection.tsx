@@ -18,7 +18,7 @@ export default function HeroSection(props: HeroSectionProps) {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentWordIndex((currentIndex) => (currentIndex + 1) % words.length);
-    }, 1400);
+    }, 3000);
     return () => clearInterval(intervalId);
   }, [words]);
   return (

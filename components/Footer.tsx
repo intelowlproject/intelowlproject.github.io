@@ -14,36 +14,57 @@ export default function Footer() {
                 />
               </a>
               <p className="text-body-color mb-7 text-base text-white">
-                Sed ut perspiciatis undmnis is iste natus error sit amet
-                voluptatem totam rem aperiam.
+                From the beginning of 2020, we are here to help the Infosec community all over the world.
               </p>
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 lg:w-6/12">
-            <div className="mb-10 w-full text-white">
+            <div className="mb-10 w-full text-white" id="contributors">
               <h4 className="text-dark mb-9 text-xl font-semibold">
                 Contributors
               </h4>
               <ul>
                 <li>
                   <a
-                    href="https://github.com/mlodic"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-xl leading-loose"
+                    href="https://twitter.com/matte_lodi"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
                   >
                     Matteo Lodi{" "}
-                    <span className="ml-5 font-medium text-md opacity-90 font-SpaceGrotesk">
+                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
+                      Author and Creator{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/eshaan7_"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Eshaan Bansal{" "}
+                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
                       Principal Maintainer{" "}
                     </span>
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/mlodic"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-xl leading-loose"
+                    href="https://twitter.com/0ssig3no"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
                   >
-                    Eshaan Bansal{" "}
-                    <span className="ml-5 font-medium text-md opacity-90 font-SpaceGrotesk">
-                      Principal Maintainer{" "}
+                    Simone Berni{" "}
+                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
+                      Key Contributor and Backend Maintainer{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/drosetti"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Daniele Rosetti{" "}
+                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
+                      Key Contributor and Frontend Maintainer{" "}
                     </span>
                   </a>
                 </li>
