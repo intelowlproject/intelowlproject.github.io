@@ -3,7 +3,7 @@ export const Sponsordata = [
         companyname: "Certego",
         companylevel: "🥇 GOLD",
         companylogo: "images/Certego.png",
-        companydesc: "Certego is a MDR (Managed Detection and Response) and Threat Intelligence Provider based in Italy. IntelOwl was born out of Certego's Threat intelligence R&D division and is constantly maintained and updated thanks to them."
+        companydesc: "[Certego](https://certego.net/?utm_source=intelowl) is a MDR (Managed Detection and Response) and Threat Intelligence Provider based in Italy. IntelOwl was born out of Certego's Threat intelligence R&D division and is constantly maintained and updated thanks to them."
     },
     {
         companyname: "The Honeynet Project",
