@@ -143,6 +143,15 @@ export function Header(props: Headerprops) {
                   alt="intelowl logo"
                 />
               </Link>
+              <Link href={"https://www.linkedin.com/company/intelowl"}>
+                <Image
+                  width={25}
+                  height={25}
+                  className=""
+                  src="/site/images/linkedinlogo.png"
+                  alt="linkedin logo"
+                />
+              </Link>
             </span>
           </div>
         </div>
