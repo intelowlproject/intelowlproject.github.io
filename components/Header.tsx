@@ -44,16 +44,16 @@ export function Header(props: Headerprops) {
               Testimonials
             </Link>
             <Link
-              href="https://intelowlproject.github.io/site/"
-              className="text-white font-SpaceGrotesk font-light text-right -ml-2 invisible md:visible"
-            >
-              Sponsors
-            </Link>
-            <Link
               href={"/blogs"}
               className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
             >
               Blogs
+            </Link>
+            <Link
+              href="https://opencollective.com/intelowl-project/donate"
+              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
+            >
+              Donate
             </Link>
             <span className="flex flex-row justify-center space-x-2 mr-5">
               <Link href={"https://github.com/intelowlproject"}>
@@ -96,7 +96,6 @@ export function Header(props: Headerprops) {
                 alt="intelowl logo"
               ></img>
             </Link>
-
             <Link
               href="#feature-section"
               onClick={handleScroll}
@@ -112,17 +111,16 @@ export function Header(props: Headerprops) {
               Testimonials
             </Link>
             <Link
-              href="#sponsor-section"
-              onClick={handleScroll}
-              className="text-white font-SpaceGrotesk font-light text-right -ml-2 invisible md:visible"
-            >
-              Sponsors
-            </Link>
-            <Link
               href="/blogs"
               className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
             >
               Blogs
+            </Link>
+            <Link
+              href="https://opencollective.com/intelowl-project/donate"
+              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
+            >
+              Donate
             </Link>
             <span className="flex flex-row justify-center space-x-2 mr-5">
               <Link href={"https://github.com/intelowlproject"}>

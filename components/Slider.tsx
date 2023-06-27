@@ -4,7 +4,7 @@ import { TestimonialData } from "../constants/testimonialsdata";
 import { Sponsordata } from "../constants/sponsordata";
 import { useEffect } from "react";
 import Swiper from "swiper";
-import Image from "next/image";
+import Link from "next/link";
 
 interface sliderProps {
   isTestimonial: boolean;
