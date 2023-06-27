@@ -27,52 +27,52 @@ export default function Home() {
           <div className="flex flex-row w-full h-14 items-center justify-center space-x-6">
             {" "}
             <a
-              href="https://intelowl.readthedocs.io/en/latest/Usage.html#analyzers"
+              href="https://github.com/intelowlproject/IntelOwl/star"
               className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3 text-center justify-center">
-                150+
+                3K+
               </span>{" "}
               {/* link to prolly the docs where analyzers are explained */}
               <span className="text-sm font-normal font-SpaceGrotesk ">
+                Github Stars
+              </span>
+            </a>
+            <a
+              href="https://hub.docker.com/repository/docker/intelowlproject/intelowl"
+              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              role="alert"
+            >
+              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
+                250k+
+              </span>{" "}
+              <span className="text-sm font-SpaceGrotesk font-normal">
+                Downloads
+              </span>
+            </a>
+            <a
+              href="https://github.com/intelowlproject/IntelOwl/fork"
+              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              role="alert"
+            >
+              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
+                300+
+              </span>{" "}
+              <span className="text-sm font-SpaceGrotesk font-normal">
+                Forks
+              </span>
+            </a>
+            <a
+              href="https://intelowl.readthedocs.io/en/latest/Usage.html#analyzers"
+              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              role="alert"
+            >
+              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
+                150+
+              </span>{" "}
+              <span className="text-sm font-SpaceGrotesk font-normal">
                 Analyzers
-              </span>
-            </a>
-            <a
-              href="https://intelowl.readthedocs.io/en/latest/Usage.html#connectors"
-              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
-              role="alert"
-            >
-              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                5+
-              </span>{" "}
-              <span className="text-sm font-SpaceGrotesk font-normal">
-                Connectors
-              </span>
-            </a>
-            <a
-              href="https://intelowl.readthedocs.io/en/latest/Usage.html#playbooks"
-              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
-              role="alert"
-            >
-              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                5+
-              </span>{" "}
-              <span className="text-sm font-SpaceGrotesk font-normal">
-                Playbooks
-              </span>
-            </a>
-            <a
-              href="https://intelowl.readthedocs.io/en/latest/Usage.html#visualizers"
-              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
-              role="alert"
-            >
-              <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                5+
-              </span>{" "}
-              <span className="text-sm font-SpaceGrotesk font-normal">
-                Visualizers
               </span>
             </a>
           </div>
