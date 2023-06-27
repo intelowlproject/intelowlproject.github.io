@@ -127,7 +127,7 @@ export default function Home() {
             Our Sponsors
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
-            As open source project maintainers, we strongly rely on external support to get the resources and time to work on keeping the project alive, with a constant release of new features, bug fixes and general improvements. This is the list of our sponsors.
+            As open source project maintainers, we strongly rely on external support to get the resources and time to work on keeping the project alive, with a constant release of new features, bug fixes and general improvements. Thanks to all the following Sponsors!
           </h3>
           <Slider isTestimonial={false} />
         </section>
