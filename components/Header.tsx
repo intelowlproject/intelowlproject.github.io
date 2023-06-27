@@ -62,7 +62,7 @@ export function Header(props: Headerprops) {
                   height={25}
                   className=""
                   src="/site/images/githublogo.png"
-                  alt="intelowl logo"
+                  alt="github logo"
                 />
               </Link>
               <Link href={"https://twitter.com/intel_owl?lang=en"}>
@@ -71,7 +71,16 @@ export function Header(props: Headerprops) {
                   height={25}
                   className=""
                   src="/site/images/twitterlogo.png"
-                  alt="intelowl logo"
+                  alt="twitter logo"
+                />
+              </Link>
+              <Link href={"https://www.linkedin.com/company/intelowl"}>
+                <Image
+                  width={25}
+                  height={25}
+                  className=""
+                  src="/site/images/linkedinlogo.png"
+                  alt="linkedin logo"
                 />
               </Link>
             </span>

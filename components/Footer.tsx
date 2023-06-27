@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="w-full px-4 sm:w-1/2 lg:w-6/12">
             <div className="mb-10 w-full text-white" id="contributors">
               <h4 className="text-dark mb-9 text-xl font-semibold">
-                Contributors
+                Authors and Maintainers
               </h4>
               <ul>
                 <li>
