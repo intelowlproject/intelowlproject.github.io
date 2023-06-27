@@ -1,10 +1,13 @@
-# **landing website for the intelowlproject.**
-
-
+# **Landing website for the IntelOwl Project Community**
 
 [Figma Prototype](https://www.figma.com/proto/1WoQUNP99W1Ou3xMelv9AT/IntelOwl-website?type=design&nod%5B%E2%80%A6%5D81%2C0.04=&scaling=scale-down&starting-point-node-id=258%3A5174&node-id=258-3631&show-proto-sidebar=1)
 
 ## Adding new content to the website
+
+### **Adding up blogs.**
+Add your article as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/site/tree/develop/Blogs) with the same title as the file.
+
+If you are an IntelOwl contributor and you would like to add content on this blog which is related to IntelOwl, feel free to fork this repository and submit an article! We will review it and publish it! 
 
 ### **Adding up a new feature/testimonial/sponsor.**
 
@@ -47,10 +50,6 @@ Faq's in `faqdata.ts`
         answer:"Lorem ipsum dolor sit a Lorem ipsum dolor sit a"
 }
 ```
-
-### **Adding up blogs.**
-Add your blog as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/site/tree/develop/Blogs) with the same title as the file.
-
 
 ### **Note** </br>
 For any newer images/pdf's/media to be added, the path shall be `/site/{yourimage.png}` rather than `/{yourimage.png}` this is due to how routes are handled while deploying to github pages.

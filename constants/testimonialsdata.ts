@@ -4,7 +4,6 @@ export const TestimonialData = [
         name: "Kostas Tsialemis",
         designation: "Cyber Threat Intelligence Analyst",
         review: "As a Threat Intel Analyst, I use IntelOwl daily to expand the context of various indicators with ease by simply querying one platform instead of multiple. IntelOwl has made my workflow faster as I now have more time to concentrate on the analysis rather than collecting the data.",
-
     },
     {
        

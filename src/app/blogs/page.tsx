@@ -37,7 +37,7 @@ export default function BlogsPage() {
                     </h3>
                     <div
                       className=" font-SpaceGrotesk text-white px-5 py-5 opacity-70 [&>*]:mb-3 [&>*:last-child]:mb-0"
-                      dangerouslySetInnerHTML={{ __html: post.body.html.substring(0, 250) }}
+                      dangerouslySetInnerHTML={{ __html: post.body.html.substring(0, 250) + "..." }}
                     />
                   </div>
                 );
