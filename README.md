@@ -34,6 +34,7 @@ Sponsors in `sponsordata.ts`
         companyname: "ushfhjhb",
         companylevel: "bronze",
         companylogo: "image path",
+        companylink: "link",
         companydesc: "akjda jlfal jfbjabj lablj absjlfba"
 }
 ```

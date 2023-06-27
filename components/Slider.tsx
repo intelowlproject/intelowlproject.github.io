@@ -94,13 +94,15 @@ export default function Slider(props: sliderProps) {
                         <p className="relative mt-4 text-gray-500">
                           {sponsor.companydesc}
                         </p>
-                        <Image
-                          className="items-center justify-center "
-                          src={sponsor.companylogo}
-                          width={250}
-                          height={50}
-                          alt="hj"
-                        ></Image>
+                        <Link href={sponsor.companylink}>
+                          <img
+                            className="items-center justify-center "
+                            src={sponsor.companylogo}
+                            width={250}
+                            height={50}
+                            alt="hj"
+                          ></img>
+                        </Link>
                         <div className="flex items-center gap-4">
                           <div className="text-lg ">
                             <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-lg">

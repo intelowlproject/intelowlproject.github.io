@@ -16,6 +16,9 @@ export default function Footer() {
               <p className="text-body-color mb-7 text-base text-white">
                 From the beginning of 2020, we are here to help the Infosec community all over the world.
               </p>
+              <a href="https://opencollective.com/intelowl-project/donate" target="_blank">
+                <img src="https://opencollective.com/intelowl-project/donate/button@2x.png?color=blue" width=200 />
+              </a>
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 lg:w-6/12">
