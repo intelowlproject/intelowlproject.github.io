@@ -127,12 +127,7 @@ export default function Home() {
             Our Sponsors
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
-            As open source project maintainers, we strongly rely on external support to get the resources and time to work on keeping the project alive, with a constant release of new features, bug fixes and general improvements.
-Because of this, we joined Open Collective to obtain non-profit equal level status which allows the organization to receive and manage donations transparently. Please support IntelOwl and all the community by choosing a plan (BRONZE, SILVER, etc).
-<a href="https://opencollective.com/intelowl-project/donate" target="_blank">
-  <img src="https://opencollective.com/intelowl-project/donate/button@2x.png?color=blue" width=200 />
-</a>
-This is the list of our sponsors.
+            As open source project maintainers, we strongly rely on external support to get the resources and time to work on keeping the project alive, with a constant release of new features, bug fixes and general improvements. This is the list of our sponsors.
           </h3>
           <Slider isTestimonial={false} />
         </section>
