@@ -79,7 +79,7 @@ export default function Home() {
         </div>
         <section
           id="video-section"
-          className="flex flex-col items-center justify-center md:h-screen md:w-screen mt-14"
+          className="flex flex-col items-center justify-center md:h-screen md:w-screen md:mt-52 mt-14 lg:mt-64"
         >
           <VideoSection />
         </section>
