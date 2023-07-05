@@ -7,7 +7,7 @@ export default function VideoSection() {
           id="text"
           className="flex flex-col w-full md:h-2/5 items-center justify-center -mt-12"
         >
-          <h2 className="w-4/5 text-center text-2xl text-white md:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
+          <h2 className="w-4/5 text-center text-xl text-white md:text-4xl xl:text-5xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             Your Open Source Solution for your day-to-day activities.
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
