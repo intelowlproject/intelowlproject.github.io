@@ -109,7 +109,7 @@ export default function Home() {
         </section>
         <section
           id="faq-section"
-          className="flex flex-col items-center justify-start w-screen md:h-screen"
+          className="flex flex-col items-center justify-start w-screen pb-32"
         >
           <h2 className="text-center text-3xl text-white md:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             FAQs
@@ -126,7 +126,7 @@ export default function Home() {
           <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             Our Sponsors
           </h2>
-          <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
+          <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-xl lg:text-xl xl:text-2xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
             As open source project maintainers, we strongly rely on external support to get the resources and time to work on keeping the project alive, with a constant release of new features, bug fixes and general improvements. Thanks to all the following Sponsors!
           </h3>
           <Slider isTestimonial={false} />
