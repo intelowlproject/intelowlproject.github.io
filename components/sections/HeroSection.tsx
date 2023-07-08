@@ -12,7 +12,7 @@ interface HeroSectionProps {
 
 export default function HeroSection(props: HeroSectionProps) {
   const { isMobile } = props;
-  const [words] = useState(["hash.", "ip.", "malware.", "domain."]);
+  const [words] = useState(["a hash.", "an ip.", "a malware.", "a domain."]);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function HeroSection(props: HeroSectionProps) {
         >
           <div className="bg-inherit w-full flex flex-col items-center justify-center px-5">
             <h1 className="text-white text-center text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
-              Get Threat Intelligence data about a{" "}
+              Get Threat Intelligence data about {" "}
               <span className="text-[#00ADEF]">{words[currentWordIndex]}</span>
             </h1>
             <h2 className=" text-white text-center text-lg mt-8 font-SpaceGrotesk font-extralight px-4">
@@ -68,7 +68,7 @@ export default function HeroSection(props: HeroSectionProps) {
         >
           <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
             <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
-              Get Threat Intelligence data about a{" "}
+              Get Threat Intelligence data about {" "}
               <span className="text-[#00ADEF]">{words[currentWordIndex]}</span>
             </h1>
             <h2 className=" text-white text-left text-3xl lg:text-3xl xl:text-4xl mt-8 font-SpaceGrotesk font-extralight">

@@ -22,7 +22,20 @@ export default function Slider(props: sliderProps) {
           <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
             <Swiper
               spaceBetween={25}
-              slidesPerView={3}
+              breakpoints={{
+                '@0.00': {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                '@0.75': {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                '@1.00': {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
               autoplay={{
                 delay: 2000,
                 disableOnInteraction: false,
@@ -33,7 +46,7 @@ export default function Slider(props: sliderProps) {
               {TestimonialData.map((testimonial, index) => {
                 return (
                   <div key={index} className="swiper-slide h-full bg-white">
-                    <SwiperSlide className="bg-[#16161D] !h-[30rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F]">
+                    <SwiperSlide className="bg-[#16161D] md:!h-[30rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F]">
                       <p className="relative mt-4 text-gray-500">
                         <span className="text-xl">&ldquo;</span>
                         {testimonial.review}
@@ -62,30 +75,31 @@ export default function Slider(props: sliderProps) {
             <Swiper
               spaceBetween={25}
               slidesPerView={3}
-              autoplay={{
-                delay: 2000,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 2000,
+              //   disableOnInteraction: false,
+              // }}
               modules={[Autoplay]}
             >
               {Sponsordata.map((sponsor, index) => {
                 return (
                   <div key={index} className="swiper-slide">
-                    <SwiperSlide className="bg-[#16161D] !h-[35rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F] flex flex-col justify-center items-center space-y-7 ">
-                      <p className="relative mt-4 text-gray-500">
+                    <SwiperSlide className="bg-[#16161D] md:!h-[35rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F]">
+                      <div className="flex flex-col items-center justify-around space-y-7 ">
+                      <p className="relative  mt-4 text-gray-500">
                         {sponsor.companydesc}
                       </p>
                       <Link href={sponsor.companylink}>
                         <img
-                          className="items-center justify-center "
+                          className="items-center justify-center self-center"
                           src={sponsor.companylogo}
-                          width={250}
+                          width={200}
                           height={50}
-                          alt="hj"
+                          alt="sponsor-image"
                         ></img>
                       </Link>
                       <div className="flex items-center gap-4">
-                        <div className="text-lg ">
+                        <div className="text-lg text-center">
                           <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-lg">
                             {sponsor.companyname}
                           </p>
@@ -93,6 +107,7 @@ export default function Slider(props: sliderProps) {
                             {sponsor.companylevel}
                           </p>
                         </div>
+                      </div>
                       </div>
                     </SwiperSlide>
                   </div>

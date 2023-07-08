@@ -16,11 +16,9 @@ export default function VideoSection() {
           </h3>
         </div>
       </div>
-      <div id="video" className=" md:h-3/5 rounded-3xl mt-12" style={{alignItems:'center', justifyContent: 'center'}}>
+      <div id="video" className="flex flex-col justify-center items-center md:w-screen md:h-3/5 rounded-3xl mt-12 pb-24" style={{alignItems:'center', justifyContent: 'center'}}>
         <iframe
-            className="rounded-3xl"
-            width={800}
-            height={500}
+            className="md:w-[70%] md:h-[100%] lg:h-[150%] rounded-3xl"
             src="https://www.youtube.com/embed/pHnh3qTzSeM">
         </iframe>
       </div>

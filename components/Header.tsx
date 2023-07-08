@@ -33,13 +33,13 @@ export function Header(props: Headerprops) {
 
             <Link
               href="https://intelowlproject.github.io/site/"
-              className="text-white font-SpaceGrotesk font-light text-right invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
               Features
             </Link>
             <Link
               href="https://intelowlproject.github.io/site/"
-              className="text-white font-SpaceGrotesk font-light text-right invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
               Testimonials
             </Link>
@@ -99,14 +99,14 @@ export function Header(props: Headerprops) {
             <Link
               href="#feature-section"
               onClick={handleScroll}
-              className="text-white font-SpaceGrotesk font-light text-right invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
               Features
             </Link>
             <Link
               href="#testimonials-section"
               onClick={handleScroll}
-              className="text-white font-SpaceGrotesk font-light text-right invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
               Testimonials
             </Link>
@@ -118,7 +118,7 @@ export function Header(props: Headerprops) {
             </Link>
             <Link
               href="https://opencollective.com/intelowl-project/donate"
-              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
+              className="text-white font-SpaceGrotesk font-light text-left collapse md:visible"
             >
               Donate
             </Link>
