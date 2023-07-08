@@ -75,10 +75,10 @@ export default function Slider(props: sliderProps) {
             <Swiper
               spaceBetween={25}
               slidesPerView={3}
-              // autoplay={{
-              //   delay: 2000,
-              //   disableOnInteraction: false,
-              // }}
+              autoplay={{
+                delay: 2000,
+                disableOnInteraction: false,
+              }}
               modules={[Autoplay]}
             >
               {Sponsordata.map((sponsor, index) => {
