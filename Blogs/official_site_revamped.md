@@ -3,7 +3,7 @@ title: Official Site Revamped!
 date: 2023-07-20
 ---
 
-Thanks to the work put in place by our GSoC contributor <a href="https://twitter.com/abheekblahblah">Abheek</a> and the help of all the involved mentors (myself :P Daniele and Aditya) we are proud to announce the release of our new official Site with a completely revamped Interface!
+Thanks to the work put in place by our GSoC contributor [Abheek](https://twitter.com/abheekblahblah) and the help of all the involved mentors (myself :P Daniele and Aditya) we are proud to announce the release of our new official Site with a completely revamped Interface!
 
 That is another giant step forward to increase the visibility of our Open Source Projects and Community.
 
