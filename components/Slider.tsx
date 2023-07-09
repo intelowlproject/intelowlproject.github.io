@@ -74,7 +74,20 @@ export default function Slider(props: sliderProps) {
           <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
             <Swiper
               spaceBetween={25}
-              slidesPerView={3}
+              breakpoints={{
+                '@0.00': {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                '@0.75': {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                '@1.00': {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
               autoplay={{
                 delay: 2000,
                 disableOnInteraction: false,
