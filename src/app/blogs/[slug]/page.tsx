@@ -2,6 +2,7 @@ import { format, parseISO } from 'date-fns'
 import { allPosts } from '../../../../.contentlayer/generated'
 import { Header } from '../../../../components/Header'
 import Footer from '../../../../components/Footer'
+import Image from "next/image"
 
 export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
 
@@ -25,6 +26,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
         <h1 className="text-white font-SpaceGrotesk font-bold text-3xl md:text-6xl ">{post.title}</h1>
+        <Image src={post.cover} width={100} height={100} alt={""} className="pb-12"></Image>
       </div>
       <div className="font-SpaceGrotesk text-white text-left py-5 opacity-70 text-md [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html.replace(/<a/g, '<a style="color: #00ADEE;"'), }} />
     </main>

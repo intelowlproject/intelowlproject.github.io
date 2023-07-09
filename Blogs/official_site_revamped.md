@@ -1,6 +1,7 @@
 ---
 title: Official Site Revamped!
 date: 2023-07-20
+cover: /site/images/favicon.png
 ---
 
 Thanks to the work put in place by our GSoC contributor [Abheek](https://twitter.com/abheekblahblah) and the help of all the involved mentors (myself :P Daniele and Aditya) we are proud to announce the release of our new official Site with a completely revamped Interface!

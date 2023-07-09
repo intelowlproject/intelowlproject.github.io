@@ -1,6 +1,7 @@
 ---
 title: Presenting GreedyBear
 date: 2023-07-20
+cover: /site/images/favicon.png
 ---
 
 [GreedyBear](https://github.com/intelowlproject/GreedyBear) is a tool that was created mainly to help to extract Indicators of Compromise from one or more available [TPOTs](https://github.com/telekom-security/tpotce). For those who do not know this tool, we are talking about the most popular all-in-one honeypot available in the community.

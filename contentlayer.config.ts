@@ -6,6 +6,7 @@ export const Post = defineDocumentType(() => ({
   fields: {
     title: { type: 'string', required: true },
     date: { type: 'date', required: true },
+    cover: { type: 'string', required: true },
   },
   computedFields: {
     url: { type: 'string', resolve: (post) => `/blogs/${post._raw.flattenedPath}` },
