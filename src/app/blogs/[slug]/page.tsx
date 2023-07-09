@@ -26,7 +26,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
         </time>
         <h1 className="text-white font-SpaceGrotesk font-bold text-3xl md:text-6xl ">{post.title}</h1>
       </div>
-      <div className="font-SpaceGrotesk text-white text-left py-5 opacity-70 text-md [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} />
+      <div className="font-SpaceGrotesk text-white text-left py-5 opacity-70 text-md [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html.replace(/<a/g, '<a style="color: #00ADEE;"'), }} />
     </main>
     <Footer></Footer>
     </>
