@@ -25,7 +25,7 @@ export const Sponsordata = [
         companylevel: "🥈 SILVER",
         companylogo: "images/threathunter_logo.png",
         companylink: "https://threathunter.ai?utm_source=intelowl",
-        companydesc: "ThreatHunter.ai®, is a 100% Service-Disabled Veteran-Owned Small Business started in 2007 under the name Milton Security Group. ThreatHunter.ai is the global leader in Dynamic Threat Hunting. Operating a true 24x7x365 Security Operation Center with AI/ML-enhanced human Threat Hunters, ThreatHunter.ai has changed the industry in how threats are found, and mitigated in real time. For over 15 years, our teams of Threat Hunters have stopped hundreds of thousands of threats and assisted organizations in defending against threat actors around the clock."
+        companydesc: "ThreatHunter.ai®, is a 100% Service-Disabled Veteran-Owned Small Business started in 2007 under the name Milton Security Group. ThreatHunter.ai is the global leader in Dynamic Threat Hunting."
     },
        {
         companyname: "Docker",

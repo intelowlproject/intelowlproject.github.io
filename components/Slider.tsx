@@ -37,7 +37,7 @@ export default function Slider(props: sliderProps) {
                 },
               }}
               autoplay={{
-                delay: 2000,
+                delay: 4000,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
@@ -89,7 +89,7 @@ export default function Slider(props: sliderProps) {
                 },
               }}
               autoplay={{
-                delay: 2000,
+                delay: 4000,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
