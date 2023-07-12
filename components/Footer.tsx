@@ -38,7 +38,7 @@ export default function Footer() {
                     className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
                   >
                     Matteo Lodi{" "}
-                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
+                    <span className="ml-12 font-small text-sm opacity-90 font-SpaceGrotesk">
                       Author and Creator{" "}
                     </span>
                   </a>
@@ -49,7 +49,7 @@ export default function Footer() {
                     className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
                   >
                     Eshaan Bansal{" "}
-                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
+                    <span className="ml-7 font-small text-sm opacity-90 font-SpaceGrotesk">
                       Principal Maintainer{" "}
                     </span>
                   </a>
@@ -60,7 +60,7 @@ export default function Footer() {
                     className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
                   >
                     Simone Berni{" "}
-                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
+                    <span className="ml-10 font-small text-sm opacity-90 font-SpaceGrotesk">
                       Key Contributor and Backend Maintainer{" "}
                     </span>
                   </a>
@@ -71,7 +71,7 @@ export default function Footer() {
                     className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
                   >
                     Daniele Rosetti{" "}
-                    <span className="ml-5 font-small text-sm opacity-90 font-SpaceGrotesk">
+                    <span className="ml-6 font-small text-sm opacity-90 font-SpaceGrotesk">
                       Key Contributor and Frontend Maintainer{" "}
                     </span>
                   </a>

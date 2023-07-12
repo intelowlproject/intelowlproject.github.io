@@ -99,14 +99,14 @@ export function Header(props: Headerprops) {
             <Link
               href="#feature-section"
               onClick={handleScroll}
-              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible ml-3"
             >
               Features
             </Link>
             <Link
               href="#testimonials-section"
               onClick={handleScroll}
-              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible ml-3"
             >
               Testimonials
             </Link>
