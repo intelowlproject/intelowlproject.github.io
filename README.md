@@ -52,7 +52,7 @@ Faq's in `faqdata.ts`
 ```
 
 ### **Contributor Notes**
-For any newer images/pdf's/media to be added, the path shall be `/site/{yourimage.png}` rather than `/{yourimage.png}` this is due to how routes are handled while deploying to github pages.
+For any newer images/pdf/media to be added, the path shall be `/site/{yourimage.png}` rather than `/{yourimage.png}` this is due to how routes are handled while deploying to github pages.
 
 While testing any markdown related changes, if you run into any issue, you can do `npx --no-install contentlayer build` to generate the contentlayer content yourself, through your vscode terminal.
 
