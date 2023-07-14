@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="mb-10 w-full">
               <a href="/" className="mb-6 inline-block max-w-[160px]">
                 <img
-                  src="/site/images/intelowlwhite.png"
+                  src="/images/intelowlwhite.png"
                   alt="logo"
                   className="max-w-full"
                 />

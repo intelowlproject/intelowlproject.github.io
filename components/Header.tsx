@@ -23,22 +23,22 @@ export function Header(props: Headerprops) {
       {blogsection ? (
         <div className="fixed z-50 w-full h-16 max-w-xs md:max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
           <div className="grid h-full grid-cols-6 mx-auto items-center ml-6  ">
-            <Link href="https://intelowlproject.github.io/site/">
+            <Link href="https://intelowlproject.github.io/">
               <img
                 className=""
-                src="/site/images/intelowlwhite.png"
+                src="/images/intelowlwhite.png"
                 alt="intelowl logo"
               ></img>
             </Link>
 
             <Link
-              href="https://intelowlproject.github.io/site/"
+              href="https://intelowlproject.github.io/"
               className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
               Features
             </Link>
             <Link
-              href="https://intelowlproject.github.io/site/"
+              href="https://intelowlproject.github.io/"
               className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
               Testimonials
@@ -61,7 +61,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/site/images/githublogo.png"
+                  src="/images/githublogo.png"
                   alt="github logo"
                 />
               </Link>
@@ -70,7 +70,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/site/images/twitterlogo.png"
+                  src="/images/twitterlogo.png"
                   alt="twitter logo"
                 />
               </Link>
@@ -79,7 +79,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/site/images/linkedinlogo.png"
+                  src="/images/linkedinlogo.png"
                   alt="linkedin logo"
                 />
               </Link>
@@ -92,7 +92,7 @@ export function Header(props: Headerprops) {
             <Link href="#hero-section" onClick={handleScroll}>
               <img
                 className=""
-                src="/site/images/intelowlwhite.png"
+                src="/images/intelowlwhite.png"
                 alt="intelowl logo"
               ></img>
             </Link>
@@ -128,7 +128,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/site/images/githublogo.png"
+                  src="/images/githublogo.png"
                   alt="intelowl logo"
                 />
               </Link>
@@ -137,7 +137,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/site/images/twitterlogo.png"
+                  src="/images/twitterlogo.png"
                   alt="intelowl logo"
                 />
               </Link>
@@ -146,7 +146,7 @@ export function Header(props: Headerprops) {
                   width={25}
                   height={25}
                   className=""
-                  src="/site/images/linkedinlogo.png"
+                  src="/images/linkedinlogo.png"
                   alt="linkedin logo"
                 />
               </Link>
