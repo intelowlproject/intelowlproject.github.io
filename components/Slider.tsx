@@ -46,7 +46,7 @@ export default function Slider(props: sliderProps) {
               {TestimonialData.map((testimonial, index) => {
                 return (
                   <div key={index} className="swiper-slide h-full bg-white">
-                    <SwiperSlide className="bg-[#16161D] md:!h-[35rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F]">
+                    <SwiperSlide className="bg-[#16161D] md:!h-[30rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F]">
                       <div className="h-full w-full flex flex-col justify-between">
                         <p className="relative mt-4 text-gray-500">
                           <span className="text-xl">&ldquo;</span>
@@ -55,22 +55,22 @@ export default function Slider(props: sliderProps) {
                             : testimonial.review.slice(0, 300) + "..."}
                           <span className="text-xl">&rdquo;</span>
                         </p>
-                        <div className="flex flex-col gap-4 text-left">
-                          <img
-                            className="items-center justify-center self-center py-5"
-                            src={testimonial.companylogo}
-                            width={200}
-                            height={50}
-                            alt="sponsor-image"
-                          ></img>
-                          <div className="text-lg text-left mt-14">
-                            <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
-                              {testimonial.name}
-                            </p>
-                            <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-md text-left">
-                              {testimonial.designation}
-                            </p>
-                          </div>
+                        <div className="flex flex-row gap-4 text-left items-start">
+                          <figcaption className="flex justify-center items-center space-x-3">
+                            <img
+                              className="w-12 h-12 rounded-full"
+                              src="/images/favicon.png"
+                              alt="profile picture"
+                            />
+                            <div className="space-y-0.5 font-medium dark:text-white text-left">
+                              <p className="font-medium font-SpaceGrotesk opacity-90 text-white text-xl">
+                                {testimonial.name}
+                              </p>
+                              <p className="font-medium font-SpaceGrotesk text-white opacity-70 text-md text-left">
+                                {testimonial.designation}
+                              </p>
+                            </div>
+                          </figcaption>
                         </div>
                       </div>
                     </SwiperSlide>
