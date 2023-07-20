@@ -46,7 +46,7 @@ export default function Slider(props: sliderProps) {
               {TestimonialData.map((testimonial, index) => {
                 return (
                   <div key={index} className="swiper-slide h-full bg-white">
-                    <SwiperSlide className="bg-[#16161D] md:!h-[30rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F]">
+                    <SwiperSlide className="bg-[#16161D] md:!h-[30rem] lg:!h-[30rem] p-8 xl:p-8 rounded-xl mx-2 border-solid border border-[#39393F]">
                       <div className="h-full w-full flex flex-col justify-between">
                         <p className="relative mt-4 text-gray-500">
                           <span className="text-xl">&ldquo;</span>
