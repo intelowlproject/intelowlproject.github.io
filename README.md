@@ -54,3 +54,10 @@ Faq's in `faqdata.ts`
 ### **Contributor Notes**
 While testing any markdown related changes, if you run into any issue, you can do `npx --no-install contentlayer build` to generate the contentlayer content yourself, through your vscode terminal.
 
+##### Run The Application locally
+```commandline
+npm install
+npm run dev
+```
+
+
