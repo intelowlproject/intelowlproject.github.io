@@ -104,11 +104,11 @@ export function Header(props: Headerprops) {
               Features
             </Link>
             <Link
-              href="#testimonials-section"
+              href="https://intelowl.readthedocs.io/en/latest"
               onClick={handleScroll}
               className="text-white font-SpaceGrotesk font-light text-center invisible md:visible ml-3"
             >
-              Testimonials
+              Docs
             </Link>
             <Link
               href="/blogs"
