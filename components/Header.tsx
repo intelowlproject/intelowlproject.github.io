@@ -38,10 +38,10 @@ export function Header(props: Headerprops) {
               Features
             </Link>
             <Link
-              href="https://intelowlproject.github.io/"
+              href="https://intelowl.readthedocs.io/en/latest"
               className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
-              Testimonials
+              Docs
             </Link>
             <Link
               href={"/blogs"}
