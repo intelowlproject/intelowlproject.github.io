@@ -28,7 +28,7 @@ export default function Home() {
             {" "}
             <a
               href="https://github.com/intelowlproject/IntelOwl/star"
-              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              className="transform transition-transform duration-3 hover:scale-105 inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3 text-center justify-center">
@@ -41,7 +41,7 @@ export default function Home() {
             </a>
             <a
               href="https://hub.docker.com/repository/docker/intelowlproject/intelowl"
-              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              className="transform transition-transform duration-3 hover:scale-105 inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
@@ -53,7 +53,7 @@ export default function Home() {
             </a>
             <a
               href="https://github.com/intelowlproject/IntelOwl/fork"
-              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              className="transform transition-transform duration-3 hover:scale-105 inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
@@ -65,7 +65,7 @@ export default function Home() {
             </a>
             <a
               href="https://intelowl.readthedocs.io/en/latest/Usage.html#analyzers"
-              className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              className="transform transition-transform duration-3 hover:scale-105 inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">

@@ -41,7 +41,7 @@ export default function HeroSection(props: HeroSectionProps) {
               href={
                 "https://intelowl.readthedocs.io/en/latest/Installation.html"
               }
-              className="btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 mb-12 px-4 text-sm rounded w-32 h-10 mt-8 font-SpaceGrotesk text-center"
+              className=" transform transition-transform duration-3 hover:scale-110 btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 mb-12 px-4 text-sm rounded w-32 h-10 mt-8 font-SpaceGrotesk text-center"
             >
               get started ➔
             </Link>
@@ -82,7 +82,7 @@ export default function HeroSection(props: HeroSectionProps) {
               href={
                 "https://intelowl.readthedocs.io/en/latest/Installation.html"
               }
-              className="btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 px-4 rounded w-36 h-10 mt-16 font-SpaceGrotesk text-center"
+              className="transform transition-transform duration-3 hover:scale-110 btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 px-4 rounded w-36 h-10 mt-16 font-SpaceGrotesk text-center"
             >
               get started ➔
             </Link>
