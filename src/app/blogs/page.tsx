@@ -25,18 +25,18 @@ export default function BlogsPage() {
                 return (
                   <div
                     key={idx}
-                    className="mb-8 bg-[#17171D] sm:break-inside-avoid rounded-2xl border-solid border border-[#212123] space-y-4"
+                    className="mb-8 bg-[#17171D] sm:break-inside-avoid rounded-2xl border-solid border border-[#212123] space-y-4 p-4"
                   >
                     <h3 className="mb-1 mt-3">
                       <Link
                         href={post.url}
-                        className="text-xl mt-12 md:text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90"
+                        className="text-xl mt-12 md:text-3xl font-SpaceGrotesk text-white  py-5 opacity-90"
                       >
                         {post.title}
                       </Link>
                     </h3>
                     <div
-                      className=" font-SpaceGrotesk text-white px-5 py-5 opacity-70 [&>*]:mb-3 [&>*:last-child]:mb-0"
+                      className=" font-SpaceGrotesk text-white py-5 opacity-70 [&>*]:mb-3 [&>*:last-child]:mb-0"
                       dangerouslySetInnerHTML={{ __html: post.body.html.substring(0, 250) + "..." }}
                     />
                   </div>

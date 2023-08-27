@@ -9,7 +9,7 @@ export default function FeatureSection() {
               return (
                 <div
                   key={index}
-                  className="mb-8 bg-[#17171D] sm:break-inside-avoid rounded-2xl border-solid border border-[#212123]"
+                  className="transform transition-transform duration-3 hover:scale-105 mb-8 bg-[#17171D] sm:break-inside-avoid rounded-2xl border-solid border border-[#212123]"
                 >
                   <h3 className="text-xl md:text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
                     {feature.title}
@@ -23,7 +23,7 @@ export default function FeatureSection() {
               return (
                 <div
                   key={index}
-                  className="bg-[#1B1B23] mb-8 sm:break-inside-avoid rounded-2xl border-solid border border-[#212123]"
+                  className="transform transition-transform duration-3 hover:scale-105 bg-[#1B1B23] mb-8 sm:break-inside-avoid rounded-2xl border-solid border border-[#212123]"
                 >
                   <h3 className="text-xl md:text-3xl font-SpaceGrotesk text-white px-5 py-5 opacity-90">
                     {feature.title}
