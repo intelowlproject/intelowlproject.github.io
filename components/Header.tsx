@@ -22,36 +22,36 @@ export function Header(props: Headerprops) {
     <>
       {blogsection ? (
         <div className="fixed z-50 w-full h-16 max-w-xs md:max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
-          <div className="grid h-full grid-cols-6 mx-auto items-center ml-6  ">
-            <Link href="https://intelowlproject.github.io/">
+          <div className=" md:grid h-full md:grid-cols-6 flex flex-row justify-between mx-auto items-center ml-6 ">
+            <Link href="/">
               <img
-                className=""
+                className="max-w-[100px] md:max-w-[110px]"
                 src="/images/intelowlwhite.png"
                 alt="intelowl logo"
               ></img>
             </Link>
 
             <Link
-              href="https://intelowlproject.github.io/"
-              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
+              href="/#feature-section"
+              className="text-white font-SpaceGrotesk font-light hidden md:flex md:justify-center md:flex-row"
             >
               Features
             </Link>
             <Link
-              href="https://intelowlproject.github.io/"
+              href="https://intelowl.readthedocs.io/en/latest"
               className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
-              Testimonials
+              Docs
             </Link>
             <Link
               href={"/blogs"}
-              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
+              className="text-white font-SpaceGrotesk font-light hidden md:flex md:justify-center md:flex-row"
             >
               Blogs
             </Link>
             <Link
               href="https://opencollective.com/intelowl-project/donate"
-              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
+              className="text-white font-SpaceGrotesk font-light hidden md:flex md:justify-center md:flex-row"
             >
               Donate
             </Link>
@@ -88,10 +88,10 @@ export function Header(props: Headerprops) {
         </div>
       ) : (
         <div className="fixed z-50 w-full h-16 max-w-xs md:max-w-3xl -translate-x-1/2 rounded-full top-10 left-1/2 bg-[#1C1C1F] border-solid border border-[#29292d]">
-          <div className="grid h-full grid-cols-6 mx-auto items-center ml-6  ">
+          <div className=" md:grid h-full md:grid-cols-6 flex flex-row justify-between mx-auto items-center ml-6  ">
             <Link href="#hero-section" onClick={handleScroll}>
               <img
-                className=""
+                className="max-w-[100px] md:max-w-[110px]"
                 src="/images/intelowlwhite.png"
                 alt="intelowl logo"
               ></img>
@@ -99,25 +99,25 @@ export function Header(props: Headerprops) {
             <Link
               href="#feature-section"
               onClick={handleScroll}
-              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light hidden md:flex md:justify-center md:flex-row"
             >
               Features
             </Link>
             <Link
               href="https://intelowl.readthedocs.io/en/latest"
-              className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center hidden md:flex md:justify-center md:flex-row"
             >
               Docs
             </Link>
             <Link
               href="/blogs"
-              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center hidden md:flex md:justify-center md:flex-row"
             >
               Blogs
             </Link>
             <Link
               href="https://opencollective.com/intelowl-project/donate"
-              className="text-white font-SpaceGrotesk font-light text-center collapse md:visible"
+              className="text-white font-SpaceGrotesk font-light text-center hidden md:flex md:justify-center md:flex-row"
             >
               Donate
             </Link>

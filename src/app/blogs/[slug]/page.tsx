@@ -21,14 +21,17 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   return (
     <>
       <Header blogsection={true}></Header>
-      <main className="h-full mx-16 md:mt-52 mt-28">
+      <main className="h-full md:mx-16 mx-5 md:mt-52 mt-28">
         <div className="mb-8 md:space-y-4">
+          <div className="flex flex-row justify-between items-center">
           <time
             dateTime={post.date}
             className="font-SpaceGrotesk text-white py-5 opacity-70 text-sm md:text-md mb-5 "
           >
             {format(parseISO(post.date), "LLLL d, yyyy")}
           </time>
+          <h3 className="font-SpaceGrotesk text-white py-5 opacity-90 text-sm md:text-md mb-5 ">By {post.author}</h3>
+          </div>
           <h1 className="text-white font-SpaceGrotesk font-bold text-3xl md:text-6xl pb-12">
             {post.title}
           </h1>
