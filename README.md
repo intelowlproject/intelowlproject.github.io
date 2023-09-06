@@ -52,6 +52,9 @@ Faq's in `faqdata.ts`
 ```
 
 ### **Contributor Notes**
+Make sure to go through the [contribute](https://intelowl.readthedocs.io/en/latest/Contribute.html#create-a-pull-request) section here, before creating your pr.
+
+
 While testing any markdown related changes, if you run into any issue, you can do `npx --no-install contentlayer build` to generate the contentlayer content yourself, through your vscode terminal.
 
 ##### Run The Application locally
