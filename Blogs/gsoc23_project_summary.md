@@ -2,7 +2,7 @@
 title: Frontend Improvements for Buffalogs, IntelOwl.
 date: 2023-08-27
 cover: /images/gsoclogo.png
-author: Abheek Tripathy
+author: Abheek Tripathy test
 ---
 
 Being a designer/frontend dev who knows a thing or two about security, IntelOwl seemed to be pretty intriguing to me with a very real use-case since the first time I was introduced to the project. I started contributing to it from December of 2022, mostly working on frontend issues opened up by Matteo.
