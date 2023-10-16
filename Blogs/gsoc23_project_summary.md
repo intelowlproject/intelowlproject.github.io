@@ -16,7 +16,7 @@ Being a designer/frontend dev who knows a thing or two about security, IntelOwl 
 #1672 (Discussion, closed) Added LinkedIn release action.
 ```
 
-Then i got introduced to [Buffalogs](https://github.com/certego/BuffaLogs), i found the idea to be very cool, and since then wanted to improve upon its frontend and its UI, which was my main goal for the summer, plus working on overall UI development for IntelOwl, with guides and a website refactor.
+Then i got introduced to [Buffalogs](https://github.com/certego/BuffaLogs), i found the idea to be very cool, and since then wanted to improve upon its frontend and its UI, which was my main goal for the summer, Plus working on overall UI development for IntelOwl, with guides and a website refactor.
 
 As stated in my original proposal’s overview:
 
