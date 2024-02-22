@@ -39,7 +39,7 @@ export default function Footer() {
                   >
                     Matteo Lodi{" "}
                     <span className="ml-12 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Author and Creator{" "}
+                      Author and Principal Maintainer{" "}
                     </span>
                   </a>
                 </li>
@@ -50,7 +50,7 @@ export default function Footer() {
                   >
                     Eshaan Bansal{" "}
                     <span className="ml-7 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Principal Maintainer{" "}
+                      Key Contributor{" "}
                     </span>
                   </a>
                 </li>
@@ -61,7 +61,7 @@ export default function Footer() {
                   >
                     Simone Berni{" "}
                     <span className="ml-10 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Key Contributor and Backend Maintainer{" "}
+                      Backend Maintainer{" "}
                     </span>
                   </a>
                 </li>
@@ -72,7 +72,7 @@ export default function Footer() {
                   >
                     Daniele Rosetti{" "}
                     <span className="ml-6 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Key Contributor and Frontend Maintainer{" "}
+                      Frontend Maintainer{" "}
                     </span>
                   </a>
                 </li>
