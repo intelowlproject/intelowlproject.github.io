@@ -19,7 +19,7 @@ export default function HeroSection(props: HeroSectionProps) {
       {isMobile ? (
         <div
           id="hero-section"
-          className="flex flex-col w-screen justify-items-end space-y-5 items-end mt-32 pb-24"
+          className="flex flex-col w-screen justify-items-end space-y-5 items-end mt-32 lg:pb-24 sm:pb-4"
         >
           <div className="bg-inherit w-full flex flex-col items-center justify-center px-5">
             <h1 className="text-white text-center text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
