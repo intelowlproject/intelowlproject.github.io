@@ -3,7 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { TypeAnimation } from 'react-type-animation';
 
 /* eslint-disable react/jsx-no-undef */
 interface HeroSectionProps {
@@ -12,15 +12,8 @@ interface HeroSectionProps {
 
 export default function HeroSection(props: HeroSectionProps) {
   const { isMobile } = props;
-  const [words] = useState(["a hash.", "an ip.", "a malware.", "a domain."]);
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const words = ["a hash.", 2000, "an ip.", 2000, "a malware.", 2000, "a domain.", 2000];
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentWordIndex((currentIndex) => (currentIndex + 1) % words.length);
-    }, 3000);
-    return () => clearInterval(intervalId);
-  }, [words]);
   return (
     <>
       {isMobile ? (
@@ -31,7 +24,16 @@ export default function HeroSection(props: HeroSectionProps) {
           <div className="bg-inherit w-full flex flex-col items-center justify-center px-5">
             <h1 className="text-white text-center text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
               Get Threat Intelligence data about {" "}
-              <span className="text-[#00ADEF]">{words[currentWordIndex]}</span>
+              <span className="text-[#00ADEF]">
+                <TypeAnimation
+                  sequence={words}
+                  preRenderFirstString={false}
+                  wrapper="span"
+                  speed={20}
+                  style={{ fontSize: '1em', display: 'inline-block' }}
+                  repeat={Infinity}
+                />
+              </span>
             </h1>
             <h2 className=" text-white text-center text-lg mt-8 font-SpaceGrotesk font-extralight px-4">
               From multiple sources with just a{" "}
@@ -69,7 +71,16 @@ export default function HeroSection(props: HeroSectionProps) {
           <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
             <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
               Get Threat Intelligence data about {" "}
-              <span className="text-[#00ADEF]">{words[currentWordIndex]}</span>
+              <span className="text-[#00ADEF]">
+                <TypeAnimation
+                  sequence={words}
+                  preRenderFirstString={false}
+                  wrapper="span"
+                  speed={20}
+                  style={{ fontSize: '1em', display: 'inline-block' }}
+                  repeat={Infinity}
+                />
+              </span>
             </h1>
             <h2 className=" text-white text-left text-3xl lg:text-3xl xl:text-4xl mt-8 font-SpaceGrotesk font-extralight">
               From multiple sources with just a{" "}
