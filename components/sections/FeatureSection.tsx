@@ -2,7 +2,7 @@ import { FeaturesData } from "../../constants/featuresdata";
 export default function FeatureSection() {
   return (
     <div id="">
-      <div className="mx-auto max-w-screen-lg px-8 py-16 sm:px-6 ">
+      <div className="mx-auto max-w-screen-lg lg:px-8 lg:py-16 sm:px-6 sm:py-3 md:py-5 ">
         <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-2 lg:gap-8">
           {FeaturesData.map((feature, index) => {
             if (feature.color === "darker") {

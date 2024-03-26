@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Footer() {
   return (
-    <footer className="relative z-50 bg-[#17171D] md:pt-32 pt-16 md:mt-32 pb-10 lg:pt-[120px] lg:pb-20 md:rounded-t-[75px] rounded-t-[40px]">
-      <div className="container mx-auto w-5/6">
-        <div className="-mx-4 flex flex-wrap justify-">
+    <footer className="relative z-50 bg-[#17171D] md:pt-32 pt-16 md:mt-10 pb-10 lg:pt-[120px] lg:pb-20 md:rounded-t-[75px] rounded-t-[40px]  ">
+      <div className="container mx-auto w-[90vw]">
+        <div className="-mx-4 flex flex-wrap justify-around">
           <div className="w-full px-4 sm:w-2/3 lg:w-6/12">
             <div className="mb-10 w-full">
               <a href="/" className="mb-6 inline-block max-w-[160px]">
@@ -26,19 +26,19 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="w-full px-4 sm:w-1/2 lg:w-6/12">
-            <div className="mb-10 w-full text-white" id="contributors">
+          <div className="px-2 xl:w-[50vh] md:w-[65vh] lg:w-[50vh]">
+            <div className="mb-10 text-white" id="contributors">
               <h4 className="text-dark mb-9 text-xl font-semibold">
                 Maintainers
               </h4>
-              <ul>
-                <li>
+              <ul className="flex flex-col">
+                <li className="flex w-full">
                   <a
                     href="https://twitter.com/matte_lodi"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                    className="text-body-color font-semibold hover:text-primary mb-2 text-md leading-loose"
                   >
                     Matteo Lodi{" "}
-                    <span className="ml-12 font-small text-sm opacity-90 font-SpaceGrotesk">
+                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
                       Author and Principal Maintainer{" "}
                     </span>
                   </a>

@@ -12,7 +12,7 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="w-5/6 md:w-full max-w-screen-xs lg:max-w-screen-md xl:max-w-screen-lg mt-5 space-y-5">
+    <div className="w-5/6 md:w-full max-w-screen-xs lg:max-w-screen-md xl:max-w-screen-lg mt-5 space-y-5 md:px-7">
       {FAQData.map((FAQ, index) => {
         return (
           <div key={index} className="w-full border-b-2 border-gray-500 pb-6">
