@@ -18,7 +18,7 @@ export default function Slider(props: sliderProps) {
   return (
     <>
       {isTestimonial ? (
-        <div id="testimonials-element" className="w-[90%]">
+        <div id="testimonials-element" className="w-[100%]">
           <div className="mx-auto max-w-screen-xl py-16 sm:px-6 lg:px-8">
             <Swiper
               spaceBetween={25}
