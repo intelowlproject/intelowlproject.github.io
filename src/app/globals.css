@@ -22,35 +22,81 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    overflow-x: hidden;
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  overflow-x: hidden;
 
 }
+
 body::-webkit-scrollbar {
   width: 8px;
 }
+
 body::-webkit-scrollbar-track {
   background-color: #0E1016;
-  
+
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #2c2c2c;
-  
+
 }
 
 body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
-.prose{
+
+.prose {
   display: grid;
   justify-content: center;
   align-items: center;
   text-align: justify;
   max-width: 1200px;
+}
+.ssp,
+.ssn {
+  width: -700px !important;
+  color: white !important;
+  z-index: 10 !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer;
+}
+.ssp:after{
+  position: absolute !important;
+  left: -100px !important;
+}
+.ssn:after{
+  position: absolute !important;
+  right: -100px !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+  z-index: 10 !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer;
+}
+.swiper-button-prev {
+  left: 100px !important;
+}
+
+.swiper-button-next {
+  right: 90px !important;
+}
+
+.swiper-container {
+  position: relative !important;
+}
+
+.swiper-wrapper {
+  overflow: visible !important;
+}
+
+
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
 }
