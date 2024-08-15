@@ -2,7 +2,7 @@ export const FAQData = [
   {
     question: "How can I install IntelOwl?",
     answer:
-      'That is super fast and straightforward: follow the guide <a href="https://intelowlproject.github.io/docs//Installation.html" target="_blank">here</a>',
+      'That is super fast and straightforward: follow the guide <a href="/docs/IntelOwl/installation/" target="_blank">here</a>',
   },
   {
     question:
