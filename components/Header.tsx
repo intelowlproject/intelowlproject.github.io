@@ -38,7 +38,7 @@ export function Header(props: Headerprops) {
               Features
             </Link>
             <Link
-              href="https://intelowlproject.github.io/docs/"
+              href="/docs/"
               className="text-white font-SpaceGrotesk font-light text-center invisible md:visible"
             >
               Docs
@@ -104,7 +104,7 @@ export function Header(props: Headerprops) {
               Features
             </Link>
             <Link
-              href="https://intelowlproject.github.io/docs/"
+              href="/docs/"
               className="text-white font-SpaceGrotesk font-light text-center hidden md:flex md:justify-center md:flex-row"
             >
               Docs
