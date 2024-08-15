@@ -3,7 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 
 /* eslint-disable react/jsx-no-undef */
 interface HeroSectionProps {
@@ -12,7 +12,16 @@ interface HeroSectionProps {
 
 export default function HeroSection(props: HeroSectionProps) {
   const { isMobile } = props;
-  const words = ["a hash.", 2000, "an ip.", 2000, "a malware.", 2000, "a domain.", 2000];
+  const words = [
+    "a hash.",
+    2000,
+    "an ip.",
+    2000,
+    "a malware.",
+    2000,
+    "a domain.",
+    2000,
+  ];
 
   return (
     <>
@@ -23,14 +32,14 @@ export default function HeroSection(props: HeroSectionProps) {
         >
           <div className="bg-inherit w-full flex flex-col items-center justify-center px-5">
             <h1 className="text-white text-center text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
-              Get Threat Intelligence data about {" "}
+              Get Threat Intelligence data about{" "}
               <span className="text-[#00ADEF]">
                 <TypeAnimation
                   sequence={words}
                   preRenderFirstString={false}
                   wrapper="span"
                   speed={20}
-                  style={{ fontSize: '1em', display: 'inline-block' }}
+                  style={{ fontSize: "1em", display: "inline-block" }}
                   repeat={Infinity}
                 />
               </span>
@@ -40,9 +49,7 @@ export default function HeroSection(props: HeroSectionProps) {
               <span className="text-[#00ADEF]">single API request.</span>
             </h2>
             <Link
-              href={
-                "https://intelowl.readthedocs.io/en/latest/Installation.html"
-              }
+              href={"https://intelowlproject.github.io/docs//Installation.html"}
               className=" transform transition-transform duration-3 hover:scale-110 btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 mb-12 px-4 text-sm rounded w-32 h-10 mt-8 font-SpaceGrotesk text-center"
             >
               get started ➔
@@ -70,14 +77,14 @@ export default function HeroSection(props: HeroSectionProps) {
         >
           <div className="bg-inherit w-4/6 flex flex-col items-left justify-center px-16">
             <h1 className="text-white text-left text-5xl lg:text-6xl xl:text-7xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
-              Get Threat Intelligence data about {" "}
+              Get Threat Intelligence data about{" "}
               <span className="text-[#00ADEF]">
                 <TypeAnimation
                   sequence={words}
                   preRenderFirstString={false}
                   wrapper="span"
                   speed={20}
-                  style={{ fontSize: '1em', display: 'inline-block' }}
+                  style={{ fontSize: "1em", display: "inline-block" }}
                   repeat={Infinity}
                 />
               </span>
@@ -90,9 +97,7 @@ export default function HeroSection(props: HeroSectionProps) {
               </span>
             </h2>
             <Link
-              href={
-                "https://intelowl.readthedocs.io/en/latest/Installation.html"
-              }
+              href={"https://intelowlproject.github.io/docs//Installation.html"}
               className="transform transition-transform duration-3 hover:scale-110 btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 px-4 rounded w-36 h-10 mt-16 font-SpaceGrotesk text-center"
             >
               get started ➔
