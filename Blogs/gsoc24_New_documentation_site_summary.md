@@ -65,7 +65,7 @@ Deploying the site using GitHub Pages was relatively easy, thanks to a pre-exist
 
 However, ensuring that submodules were updated before deployment was crucial. I explored several approaches to trigger the main repo to fetch updates from child repos upon commits, but this proved complex.
 
-Ultimately, we opted for a daily cron job to update submodules and deploy the site with the latest changes.
+This [github action](https://github.com/intelowlproject/docs/blob/main/.github/workflows/deploy_and_update_submodules.yml) handles all the updation required.
 
 ## Addition of Docstrings
 
