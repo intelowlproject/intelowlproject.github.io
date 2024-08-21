@@ -36,31 +36,31 @@ As anticipated, my proposal was selected, and I was assigned the project. One of
 
 I'll now proceed to elaborate on all the significant PRs mentioned.
 
-- **Blint Analyzer [PR #2257](https://github.com/intelowlproject/IntelOwl/pull/2257)**: 
+- **Blint Analyzer [PR #2257](https://github.com/intelowlproject/IntelOwl/pull/2257) :** 
 [Blint](https://github.com/owasp-dep-scan/blint) is a Binary Linter that checks the security properties and capabilities of your executables. Supported binary formats: - Android (apk, aab) - ELF (GNU, musl) - PE (exe, dll) - Mach-O (x64, arm64). 
-- **HudsonRock Analyzer [PR #2327](https://github.com/intelowlproject/IntelOwl/pull/2327)**:
+- **HudsonRock Analyzer [PR #2327](https://github.com/intelowlproject/IntelOwl/pull/2327) :**
 [Hudson Rock](https://cavalier.hudsonrock.com/docs) provides its clients the ability to query a database of over 27,541,128 computers which were compromised through global info-stealer campaigns performed by threat actors.
-- **CyCat Analyzer [PR #2328](https://github.com/intelowlproject/IntelOwl/pull/2328/)**:
+- **CyCat Analyzer [PR #2328](https://github.com/intelowlproject/IntelOwl/pull/2328/) :**
 [CyCat](https://cycat.org/) or the CYbersecurity Resource CATalogue aims at mapping and documenting, in a single formalism and catalogue available cybersecurity tools, rules, playbooks, processes and controls.
-- **Vulners Analyzer [PR #2340](https://github.com/intelowlproject/IntelOwl/pull/2340)**:
+- **Vulners Analyzer [PR #2340](https://github.com/intelowlproject/IntelOwl/pull/2340) :**
 [Vulners](vulners.com) is the most complete and the only fully correlated security intelligence database, which goes through constant updates and links 200+ data sources in a unified machine-readable format. It contains 8 mln+ entries, including CVEs, advisories, exploits, and IoCs — everything you need to stay abreast on the latest security threats.
-- **Ailtyposquatting Analyzer [PR #2341](https://github.com/intelowlproject/IntelOwl/pull/2341)**:
+- **Ailtyposquatting Analyzer [PR #2341](https://github.com/intelowlproject/IntelOwl/pull/2341) :**
 [AILTypoSquatting](https://github.com/typosquatter/ail-typo-squatting) is a Python library to generate list of potential typo squatting domains with domain name permutation engine to feed AIL and other systems.
-- **DetectItEasy Analyzer [PR #2354](https://github.com/intelowlproject/IntelOwl/pull/2354)**:
+- **DetectItEasy Analyzer [PR #2354](https://github.com/intelowlproject/IntelOwl/pull/2354) :**
 [DetectItEasy](https://github.com/horsicq/Detect-It-Easy) is a program for determining types of files.
-- **Malprob Analyzer [PR #2357](https://github.com/intelowlproject/IntelOwl/pull/2357)**:
+- **Malprob Analyzer [PR #2357](https://github.com/intelowlproject/IntelOwl/pull/2357) :**
 [Malprob](https://malprob.io/) is a leading malware detection and identification service, powered by cutting-edge AI technology.
-- **AdGuard Analyzer [PR #2363](https://github.com/intelowlproject/IntelOwl/pull/2363)**:
+- **AdGuard Analyzer [PR #2363](https://github.com/intelowlproject/IntelOwl/pull/2363) :**
 [Adguard](https://github.com/AdguardTeam/AdguardSDNSFilter), a filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-- **Auto creation default test user with debug=true [PR #2369](https://github.com/intelowlproject/IntelOwl/pull/2369)**:
+- **Auto creation default test user with debug=true [PR #2369](https://github.com/intelowlproject/IntelOwl/pull/2369) :**
 Auto create an Admin user whenever IntelOwl starts up for the first time to avoid user creation on every new build while development.
-- **Spamhaus_WQS Analyzer [PR #2378](https://github.com/intelowlproject/IntelOwl/pull/2378)**:
+- **Spamhaus_WQS Analyzer [PR #2378](https://github.com/intelowlproject/IntelOwl/pull/2378) :**
 [Spamhaus_WQS](https://docs.spamhaus.com/datasets/docs/source/70-access-methods/web-query-service/000-intro.html) : The Spamhaus Web Query Service (WQS) is a method of accessing Spamhaus block lists using the HTTPS protocol.
-- **Crt_sh Analyzer [PR #2379](https://github.com/intelowlproject/IntelOwl/pull/2379)**:
+- **Crt_sh Analyzer [PR #2379](https://github.com/intelowlproject/IntelOwl/pull/2379) :**
 [Crt_Sh](https://crt.sh/) lets you get certificates info about a domain.    
-- **Orkl_search Analyzer [PR #2380](https://github.com/intelowlproject/IntelOwl/pull/2380)**:
+- **Orkl_search Analyzer [PR #2380](https://github.com/intelowlproject/IntelOwl/pull/2380) :**
 [Orkl](https://orkl.eu/) is the Community Driven Cyber Threat Intelligence Library.
-- **Goresym Analyzer, fixes#1451 and fixes executable file support [PR #2401]()**: 
+- **Goresym Analyzer, fixes#1451 and fixes executable file support [PR #2401](https://github.com/intelowlproject/IntelOwl/pull/2401) :**
     - [GoReSym](https://github.com/mandiant/GoReSym) is a Go symbol parser that extracts program metadata (such as CPU architecture, OS, endianness, compiler version, etc), function metadata (start & end addresses, names, sources), filename and line number metadata, and embedded structures and types.
     - I fixed an important bug which involed correcting support for mimetype `application/vnd.microsoft.portable-executable` and `application/x-dosexec`. I had to migrate back, run a query to find all the analyzers that supported `application/x-executable` in previously, use the resultant list to migrate and update all the specific analyzers.
 - **JA4_DB Analyzer [PR #2402](https://github.com/intelowlproject/IntelOwl/pull/2402) :**
