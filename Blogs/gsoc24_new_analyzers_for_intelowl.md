@@ -84,10 +84,14 @@ Scans a file using the [Polyswarm](https://docs.polyswarm.io/) API.
 Scan an observable using [Polyswarm](https://docs.polyswarm.io/) API. Paid plan is required for IP and Domain scans. Hash scan is free.
 - **Knock analyzer [PR #2448](https://github.com/intelowlproject/IntelOwl/pull/2448) :**
 [Knock](https://github.com/guelfoweb/knock) or Knockpy is a portable and modular python3 tool designed to quickly enumerate subdomains on a target domain through passive reconnaissance and dictionary scan.
-- **Improved PE_info analyzer [PR #2464]() :**
+- **Improved PE_info analyzer [PR #2464](https://github.com/intelowlproject/IntelOwl/pull/2464) :**
 Improve PE_info analyzer; added support for ".NET" files and their info extraction .
 - **Droidlysis analyzer [PR #2454](https://github.com/intelowlproject/IntelOwl/pull/2454) :**
-- **Apk_artifacts analyzer [PR #2469]() :**
+[DroidLysis](https://github.com/cryptax/droidlysis) is a pre-analysis tool for Android apps: it performs repetitive and boring tasks we'd typically do at the beginning of any reverse engineering. It disassembles the Android sample, organizes output in directories, and searches for suspicious spots in the code to look at. The output helps the reverse engineer speed up the first few steps of analysis.
+- **MobSF Analyzer [PR #2461](https://github.com/intelowlproject/IntelOwl/pull/2461) :**
+[Mobsfscan](https://github.com/MobSF/mobsfscan) is a static analysis tool that can find insecure code patterns in your Android and iOS source code. Supports Java, Kotlin, Android XML, Swift and Objective C Code.
+- **Apk_artifacts analyzer [PR #2469](https://github.com/intelowlproject/IntelOwl/pull/2469) :**
+Apk [artifacts](https://github.com/guelfoweb/artifacts) provides APK strings analysis. It provides analysis, similarity and a report of an apk file.
 - **Markdown Features [PR #33](https://github.com/intelowlproject/intelowlproject.github.io/pull/33) :**
 Improved markdown support for IntelOwl's blog site.
 
