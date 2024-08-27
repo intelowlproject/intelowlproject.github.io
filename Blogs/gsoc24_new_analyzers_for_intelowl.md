@@ -62,7 +62,8 @@ Auto create an Admin user whenever IntelOwl starts up for the first time to avoi
 [Orkl](https://orkl.eu/) is the Community Driven Cyber Threat Intelligence Library.
 - **Goresym Analyzer, fixes#1451 and fixes executable file support [PR #2401](https://github.com/intelowlproject/IntelOwl/pull/2401) :**
     - [GoReSym](https://github.com/mandiant/GoReSym) is a Go symbol parser that extracts program metadata (such as CPU architecture, OS, endianness, compiler version, etc), function metadata (start & end addresses, names, sources), filename and line number metadata, and embedded structures and types.
-    - I fixed an important bug which involed correcting support for mimetype `application/vnd.microsoft.portable-executable` and `application/x-dosexec`. I had to migrate back, run a query to find all the analyzers that supported `application/x-executable` in previously, use the resultant list to migrate and update all the specific analyzers.
+    
+     I fixed an important bug which involed correcting support for mimetype `application/vnd.microsoft.portable-executable` and `application/x-dosexec`. I had to migrate back, run a query to find all the analyzers that supported `application/x-executable` in previously, use the resultant list to migrate and update all the specific analyzers.
 - **JA4_DB Analyzer [PR #2402](https://github.com/intelowlproject/IntelOwl/pull/2402) :**
 [JA4_DB](https://ja4db.com/) lets you search a fingerprint in JA4 databse.
 - **Spamhaus_drop Analyzer [PR #2422](https://github.com/intelowlproject/IntelOwl/pull/2422) :**
