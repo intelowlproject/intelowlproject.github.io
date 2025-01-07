@@ -39,29 +39,7 @@ export default function Footer() {
                   >
                     Matteo Lodi{" "}
                     <span className="ml-12 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Author and Creator{" "}
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/eshaan7_"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
-                  >
-                    Eshaan Bansal{" "}
-                    <span className="ml-7 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Principal Maintainer{" "}
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/0ssig3no"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
-                  >
-                    Simone Berni{" "}
-                    <span className="ml-10 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Key Contributor and Backend Maintainer{" "}
+                      Author, Advisor and Administrator{" "}
                     </span>
                   </a>
                 </li>
@@ -72,7 +50,40 @@ export default function Footer() {
                   >
                     Daniele Rosetti{" "}
                     <span className="ml-6 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Key Contributor and Frontend Maintainer{" "}
+                      Administrator and Frontend Maintainer{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/0ssig3no"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Simone Berni{" "}
+                    <span className="ml-10 font-small text-sm opacity-90 font-SpaceGrotesk">
+                      Backend Maintainer{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://x.com/fgibertoni1"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Federico Gibertoni{" "}
+                    <span className="ml-10 font-small text-sm opacity-90 font-SpaceGrotesk">
+                      Maintainer and Community Assistant{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/eshaan7_"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Eshaan Bansal{" "}
+                    <span className="ml-7 font-small text-sm opacity-90 font-SpaceGrotesk">
+                      Key Contributor{" "}
                     </span>
                   </a>
                 </li>
