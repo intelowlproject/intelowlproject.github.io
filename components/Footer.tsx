@@ -39,7 +39,40 @@ export default function Footer() {
                   >
                     Matteo Lodi{" "}
                     <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
-                      Author and Principal Maintainer{" "}
+                      Author, Advisor and Administrator{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/drosetti"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Daniele Rosetti{" "}
+                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
+                      Administrator and Frontend Maintainer{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/0ssig3no"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Simone Berni{" "}
+                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
+                      Backend Maintainer{" "}
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://x.com/fgibertoni1"
+                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                  >
+                    Federico Gibertoni{" "}
+                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
+                      Maintainer and Community Assistant{" "}
                     </span>
                   </a>
                 </li>
@@ -51,28 +84,6 @@ export default function Footer() {
                     Eshaan Bansal{" "}
                     <span className="ml-7 font-small text-sm opacity-90 font-SpaceGrotesk">
                       Key Contributor{" "}
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/0ssig3no"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
-                  >
-                    Simone Berni{" "}
-                    <span className="ml-10 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Backend Maintainer{" "}
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/drosetti"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
-                  >
-                    Daniele Rosetti{" "}
-                    <span className="ml-6 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Frontend Maintainer{" "}
                     </span>
                   </a>
                 </li>
