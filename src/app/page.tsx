@@ -64,7 +64,7 @@ export default function Home() {
               </span>
             </a>
             <a
-              href="https://intelowl.readthedocs.io/en/latest/Usage.html#analyzers"
+              href="https://intelowlproject.github.io/docs/IntelOwl/usage/#analyzers"
               className="transform transition-transform duration-3 hover:scale-105 inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
@@ -79,55 +79,60 @@ export default function Home() {
         </div>
         <section
           id="video-section"
-          className="flex flex-col items-center justify-center md:h-screen md:w-screen md:mt-52 mt-14 lg:mt-64"
+          className="flex flex-col items-center justify-center md:w-screen md:mt-5 mt-14 xl:mt-24 lg:mt-6 lg:h-[100vh] md:h-[90vh] xl:h-[100vh]"
         >
           <VideoSection />
         </section>
         <section
           id="feature-section"
-          className=" w-screen flex flex-col mt-14 md:mt-0 items-center justify-start xl:mt-14 mb-24"
+          className=" w-screen flex flex-col mt-14 md:mt-0 items-center justify-start xl:mt-14 xl:mb-16 sm: mb-8 sm:mt-8"
         >
           <h2 className="text-center text-2xl text-white md:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             What do we provide?
           </h2>
-          <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
+          <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 py-3">
             this is what we provide, compared to others.
           </h3>
           <FeatureSection />
         </section>
         <section
           id="testimonials-section"
-          className="md:h-screen w-screen flex flex-col items-center justify-start xl:mt-16"
+          className="md:mb-5 w-screen flex flex-col items-center justify-start xl:mt-5"
         >
           <h2 className="text-center text-2xl text-white md:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             Testimonials
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
-            We love to work with the community to improve the project. This is what users and contributors say about IntelOwl.
+            We love to work with the community to improve the project. This is
+            what users and contributors say about IntelOwl.
           </h3>
           <Slider isTestimonial={true} />
         </section>
         <section
           id="faq-section"
-          className="flex flex-col items-center justify-start w-screen pb-32"
+          className="flex flex-col items-center justify-start w-screen lg:pb-20 sm:pb-8"
         >
           <h2 className="text-center text-3xl text-white md:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             FAQs
           </h2>
-          <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2 mb-14 ">
-            Don&apos;t worry! We are here to help. In case you don&apos;t find the answer that you are looking for, feel free to contact us
+          <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-2xl lg:text-2xl xl:text-3xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2  mb-5 ">
+            Don&apos;t worry! We are here to help. In case you don&apos;t find
+            the answer that you are looking for, feel free to contact us
           </h3>
           <FAQSection />
         </section>
         <section
           id="sponsor-section"
-          className="h-screen md:w-screen flex flex-col items-center justify-start mt-16"
+          className="md:w-screen flex flex-col items-center justify-start mt-16"
         >
           <h2 className="text-center text-4xl text-white lg:text-5xl xl:text-6xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-semibold ">
             Our Sponsors
           </h2>
           <h3 className="text-center md:w-2/3 mx-6 text-white text-lg md:text-xl lg:text-xl xl:text-2xl leading-snug lg:leading-snug xl:leading-snug font-SpaceGrotesk font-light opacity-70 mt-2">
-            As open source project maintainers, we strongly rely on external support to get the resources and time to work on keeping the project alive, with a constant release of new features, bug fixes and general improvements. Thanks to all the following Sponsors!
+            As open source project maintainers, we strongly rely on external
+            support to get the resources and time to work on keeping the project
+            alive, with a constant release of new features, bug fixes and
+            general improvements. Thanks to all the following Sponsors!
           </h3>
           <Slider isTestimonial={false} />
         </section>
