@@ -28,64 +28,67 @@ export default function Footer() {
           </div>
           <div className="px-2 xl:w-[50vh] md:w-[65vh] lg:w-[50vh]">
             <div className="mb-10 text-white" id="contributors">
-              <h4 className="text-dark mb-9 text-xl font-semibold">
-                Maintainers
-              </h4>
+              <h4 className="text-dark mb-9 text-xl font-semibold">Maintainers</h4>
               <ul className="flex flex-col">
-                <li className="flex w-full">
+                <li className="flex items-center w-full mb-2">
                   <a
                     href="https://twitter.com/matte_lodi"
-                    className="text-body-color font-semibold hover:text-primary mb-2 text-md leading-loose"
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
+                    style={{ width: '200px' }} // Fixed width for name block
                   >
-                    Matteo Lodi{" "}
-                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
-                      Author, Advisor and Administrator{" "}
-                    </span>
+                    Matteo Lodi
                   </a>
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                    Author, Advisor and Administrator
+                  </span>
                 </li>
-                <li>
+                <li className="flex items-center w-full mb-2">
                   <a
                     href="https://github.com/drosetti"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
+                    style={{ width: '200px' }} // Fixed width for name block
                   >
-                    Daniele Rosetti{" "}
-                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
-                      Administrator and Frontend Maintainer{" "}
-                    </span>
+                    Daniele Rosetti
                   </a>
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                    Administrator and Frontend Maintainer
+                  </span>
                 </li>
-                <li>
+                <li className="flex items-center w-full mb-2">
                   <a
                     href="https://twitter.com/0ssig3no"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
+                    style={{ width: '200px' }} // Fixed width for name block
                   >
-                    Simone Berni{" "}
-                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
-                      Backend Maintainer{" "}
-                    </span>
+                    Simone Berni
                   </a>
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                    Backend Maintainer
+                  </span>
                 </li>
-                <li>
+                <li className="flex items-center w-full mb-2">
                   <a
                     href="https://x.com/fgibertoni1"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
+                    style={{ width: '200px' }} // Fixed width for name block
                   >
-                    Federico Gibertoni{" "}
-                    <span className="font-small text-sm opacity-90 font-SpaceGrotesk sm:ml-[24px] md:ml-[48px] ml-3">
-                      Maintainer and Community Assistant{" "}
-                    </span>
+                    Federico Gibertoni
                   </a>
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                    Maintainer and Community Assistant
+                  </span>
                 </li>
-                <li>
+                <li className="flex items-center w-full mb-2">
                   <a
                     href="https://twitter.com/eshaan7_"
-                    className="text-body-color font-semibold hover:text-primary mb-2 inline-block text-md leading-loose"
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
+                    style={{ width: '200px' }} // Fixed width for name block
                   >
-                    Eshaan Bansal{" "}
-                    <span className="ml-7 font-small text-sm opacity-90 font-SpaceGrotesk">
-                      Key Contributor{" "}
-                    </span>
+                    Eshaan Bansal
                   </a>
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                    Key Contributor
+                  </span>
                 </li>
               </ul>
             </div>
