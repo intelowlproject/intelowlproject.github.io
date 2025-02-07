@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day: "tuesday"
+    target-branch: "develop"
+    reviewers:
+      - drosetti
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      day: "tuesday"
+    target-branch: "develop"
+    ignore:
+      # ignore all patch updates since we are using ~=
+      # this does not work for security updates
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
