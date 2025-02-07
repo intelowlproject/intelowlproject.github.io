@@ -32,7 +32,7 @@ export default function Home() {
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3 text-center justify-center">
-                3K+
+                4K+
               </span>{" "}
               {/* link to prolly the docs where analyzers are explained */}
               <span className="text-sm font-normal font-SpaceGrotesk ">
@@ -57,7 +57,7 @@ export default function Home() {
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                300+
+                500+
               </span>{" "}
               <span className="text-sm font-SpaceGrotesk font-normal">
                 Forks
@@ -69,7 +69,7 @@ export default function Home() {
               role="alert"
             >
               <span className="text-xs bg-[#00ADEF] rounded-full text-white px-4 py-1.5 mr-3">
-                150+
+                200+
               </span>{" "}
               <span className="text-sm font-SpaceGrotesk font-normal">
                 Analyzers
