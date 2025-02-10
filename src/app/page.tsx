@@ -27,7 +27,7 @@ export default function Home() {
           <div className="flex flex-row w-full h-14 items-center justify-center space-x-6">
             {" "}
             <a
-              href="https://github.com/intelowlproject/IntelOwl/star"
+              href="https://github.com/intelowlproject/intelowl/stargazers"
               className="transform transition-transform duration-3 hover:scale-105 inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               role="alert"
             >
