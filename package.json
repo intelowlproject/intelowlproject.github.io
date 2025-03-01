@@ -17,7 +17,7 @@
     "date-fns": "^2.30.0",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
-    "framer-motion": "^10.12.16",
+    "framer-motion": "^12.4.7",
     "next": "13.4.4",
     "next-contentlayer": "^0.3.3",
     "postcss": "8.4.24",
