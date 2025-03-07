@@ -33,60 +33,60 @@ export default function Footer() {
                 <li className="flex items-center w-full mb-2">
                   <a
                     href="https://twitter.com/matte_lodi"
-                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
-                    style={{ width: '200px' }} // Fixed width for name block
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
+                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Matteo Lodi
                   </a>
-                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk ml-4">
                     Author, Advisor and Administrator
                   </span>
                 </li>
                 <li className="flex items-center w-full mb-2">
                   <a
                     href="https://github.com/drosetti"
-                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
-                    style={{ width: '200px' }} // Fixed width for name block
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
+                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Daniele Rosetti
                   </a>
-                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk ml-4">
                     Administrator and Frontend Maintainer
                   </span>
                 </li>
                 <li className="flex items-center w-full mb-2">
                   <a
                     href="https://twitter.com/0ssig3no"
-                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
-                    style={{ width: '200px' }} // Fixed width for name block
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
+                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Simone Berni
                   </a>
-                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk ml-4">
                     Backend Maintainer
                   </span>
                 </li>
                 <li className="flex items-center w-full mb-2">
                   <a
                     href="https://x.com/fgibertoni1"
-                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
-                    style={{ width: '200px' }} // Fixed width for name block
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
+                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Federico Gibertoni
                   </a>
-                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk ml-4">
                     Maintainer and Community Assistant
                   </span>
                 </li>
                 <li className="flex items-center w-full mb-2">
                   <a
                     href="https://twitter.com/eshaan7_"
-                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose"
-                    style={{ width: '200px' }} // Fixed width for name block
+                    className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
+                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Eshaan Bansal
                   </a>
-                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk">
+                  <span className="font-small text-sm opacity-90 font-SpaceGrotesk ml-4">
                     Key Contributor
                   </span>
                 </li>
