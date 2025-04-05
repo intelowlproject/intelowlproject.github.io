@@ -34,7 +34,6 @@ export default function Footer() {
                   <a
                     href="https://twitter.com/matte_lodi"
                     className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
-                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Matteo Lodi
                   </a>
@@ -46,7 +45,6 @@ export default function Footer() {
                   <a
                     href="https://github.com/drosetti"
                     className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
-                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Daniele Rosetti
                   </a>
@@ -58,7 +56,6 @@ export default function Footer() {
                   <a
                     href="https://twitter.com/0ssig3no"
                     className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
-                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Simone Berni
                   </a>
@@ -70,7 +67,6 @@ export default function Footer() {
                   <a
                     href="https://x.com/fgibertoni1"
                     className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
-                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Federico Gibertoni
                   </a>
@@ -82,7 +78,6 @@ export default function Footer() {
                   <a
                     href="https://twitter.com/eshaan7_"
                     className="text-body-color font-semibold hover:text-primary inline-block text-md leading-loose min-w-[150px]"
-                    // style={{ width: '200px' }} // Fixed width for name block
                   >
                     Eshaan Bansal
                   </a>
