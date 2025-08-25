@@ -74,7 +74,7 @@ Key achievements:
 - ✅ **100% analyzer coverage** with unit tests.  
 - ✅ **Monkeypatching eliminated** (where unnecessary).  
 - ✅ **Custom analyzer tests** applicable for complex cases.  
-- ✅ **Contributor-friendly documentation** for future maintainers.  
+- ✅ **Contributor-friendly documentation** for future maintainers and contributors.  
 
 ---
 
