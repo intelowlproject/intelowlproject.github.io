@@ -1,3 +1,8 @@
+title: Migrating IntelOwl Analyzer Tests
+date: 2025-08-25
+cover: /images/gsoclogo.png
+author: Pranjal Gupta
+
 # Migrating IntelOwl Analyzer Tests: From Monkeypatching to a Structured Unit Testing Framework  
 
 For IntelOwl, which integrates dozens of analyzers to process a wide range of observables, maintaining robust and reliable tests is crucial. This summer, during my GSoC project, I worked on **migrating IntelOwl’s analyzer tests** from a **monkeypatch-heavy approach** to a **structured, maintainable unit testing framework** using Python’s built-in `unittest` module. 
