@@ -58,7 +58,7 @@ and have also helped me with any blockers that I faced during this period. I had
 has honed my technical skills . 
 
 Regarding the future, I'll continue working with the maintainers of IntelOwl in whatever capacity I can, to continously improve the features of 
-IntelOwl. I do plan to design and develop IntelChat, through which threat analysts can simply chat with IntelOwl, but this idea is int it's infancy right now 😶‍🌫️
+IntelOwl. I do plan to design and develop IntelChat, through which threat analysts can simply chat with IntelOwl, but this idea is in it's infancy right now 😶‍🌫️
 
 
 
