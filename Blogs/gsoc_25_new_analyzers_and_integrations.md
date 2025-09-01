@@ -6,7 +6,7 @@ author: Akshit Maheshwary
 ---
 
 ### Introduction
-It has always been on my mind for a while, to contribute to a great open-source project, like IntelOwl, in a significant manner and though I knew about GSoC earlier, I never paid much attention to it . But here I am, finally documenting everything that I have done this summer as part of Google Summer of Code 2025.   
+It has always been on my mind, to contribute to a great open-source project, like IntelOwl, in a significant manner and though I knew about GSoC earlier, I never paid much attention to it. But here I am, finally documenting everything that I have done this summer as part of Google Summer of Code 2025.   
 ### Pre-GSoC Commits/Discussions.
 
 
@@ -19,17 +19,16 @@ which had improved my understanding around some of the core parts of the archite
 
 # GSoC Scope of Work and Deliverables
 
-GSoC idea that I've been selected for, involved **designing and development of new analyzers** for IntelOwl to enhance the threat intelligence
-capabilites of IntelOwl, further. 
+GSoC idea that I've been selected for, involved **designing and development of new analyzers** for IntelOwl, to further enhance it's threat intelligence capabilites. 
 
-Apart from that, I had the opportunity to work on optimising the performance of IntelOwl's sister project [Honeyscanner - A vulnerability analyzer for honeypots](https://github.com/honeynet/honeyscanner) 
+Apart from that, I had the opportunity to work on optimising the performance of another Honeynet org's project [Honeyscanner - A vulnerability analyzer for honeypots](https://github.com/honeynet/honeyscanner) 
 which was not in scope of the proposal, but since HoneyScanner analyzer had to be added, as per the initial proposal, so it was worked on as well.
 
 Now I'll proceed with elucidating the work that I've done.
 
 ## Addition of New Analyzers
 
-- Added [HuntingAbuseAPI Analyzer](https://github.com/intelowlproject/IntelOwl/pull/2885) which provides an updated list of false positives from all it's services. This API can be queried to verify. if the provided observable is valid or false positive.
+- Added [HuntingAbuseAPI Analyzer](https://github.com/intelowlproject/IntelOwl/pull/2885) which provides an updated list of false positives from all it's services. This API can be queried to verify if the provided observable is valid or false positive.
 - Updated [GreedyBear Analyzer](https://github.com/intelowlproject/IntelOwl/pull/2902) to fetch the command sequences executed in a honeypot using CommandSequenceAPI from GreedyBear.
 - Integrated [GuardDog](https://github.com/intelowlproject/IntelOwl/pull/2930) to IntelOwl, as part of which 2 analyzers, **GuardDogFile** and **GuardDogGeneric**, have been added in order to scan for malicious pypi, npm and go packages.
 - [ExpandURL Analyzer](https://github.com/intelowlproject/IntelOwl/pull/2920) has been added to IntelOwl, which basically follows the redirection chain for a provided malicious shortened URL and expands it to it's original form for further analysis.
