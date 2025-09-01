@@ -1,5 +1,5 @@
 ---
-title: IntelOwl Improvements
+title: IntelOwl Improvements and Integrations
 date: 2025-09-01
 cover: /images/gsoclogo.png
 author: Akshit Maheshwary
