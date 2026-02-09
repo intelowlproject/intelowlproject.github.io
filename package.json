@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "contentlayer build && next dev",
-    "build": "contentlayer build && next build",
+    "dev": "contentlayer build && node scripts/generate-rss.mjs && next dev",
+    "build": "contentlayer build && node scripts/generate-rss.mjs && next build",
     "start": "next start",
     "lint": "next lint"
   },
