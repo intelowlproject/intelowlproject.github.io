@@ -18,10 +18,9 @@ async function main() {
   });
 
   for (const post of posts) {
-    const plain = post.body.html.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
     feed.item({
       title: post.title,
-      description: plain.length > 250 ? plain.slice(0, 250) + "..." : plain,
+      description: post.body.html.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim(),
       url: `${SITE_URL}${post.url}`,
       author: post.author || "IntelOwl Project",
       date: new Date(post.date),
