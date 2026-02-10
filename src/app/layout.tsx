@@ -9,6 +9,11 @@ export const metadata = {
   icons: {
     icon: 'images/favicon.png',
   },
+  alternates: {
+    types: {
+      'application/rss+xml': '/feed.xml',
+    },
+  },
 }
 
 export default function RootLayout({

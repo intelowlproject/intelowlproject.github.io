@@ -75,6 +75,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build ContentLayer
         run: ${{ steps.detect-package-manager.outputs.runner }} contentlayer build
+      - name: Generate RSS Feed
+        run: node scripts/generate-rss.mjs
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Static HTML export with Next.js
