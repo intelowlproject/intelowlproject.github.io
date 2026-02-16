@@ -78,11 +78,11 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
 }
 .swiper-button-prev {
-  left: 100px !important;
+  left: 80px !important;
 }
 
 .swiper-button-next {
-  right: 90px !important;
+  right: 70px !important;
 }
 
 .swiper-container {
