@@ -21,8 +21,8 @@ export default function Slider(props: SliderProps) {
   return (
     <>
       {isTestimonial ? (
-        <div id="testimonials-element" className="w-[100%] relative">
-          <div className="mx-auto max-w-screen-xl py-16 sm:px-6 lg:px-8">
+        <div id="testimonials-element" className="w-[100%] relative overflow-visible">
+          <div className="mx-auto max-w-screen-xl py-16 sm:px-6 lg:px-6 overflow-visible">
             <Swiper
               spaceBetween={25}
               breakpoints={{
@@ -47,10 +47,10 @@ export default function Slider(props: SliderProps) {
                 prevEl: ".swiper-button-prev",
                 nextEl: ".swiper-button-next",
               }}
-              className="h-full"
+              className="h-full overflow-visible"
             >
               {TestimonialData.map((testimonial, index) => (
-                <SwiperSlide key={index} className="bg-[#16161D] md:!h-[30rem] lg:!h-[30rem] p-8 xl:p-8 rounded-xl mx-2 border-solid border border-[#39393F]">
+                <SwiperSlide key={index} className="bg-[#16161D] md:!h-[30rem] lg:!h-[30rem] p-8 xl:p-8 rounded-xl border-solid border border-[#39393F]">
                   <div className="h-full w-full flex flex-col justify-between">
                     <p className="relative mt-4 text-gray-500">
                       <span className="text-xl">&ldquo;</span>
@@ -83,8 +83,8 @@ export default function Slider(props: SliderProps) {
           </div>
         </div>
       ) : (
-        <div id="sponsor-element" className="w-[90%]">
-          <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 relative">
+        <div id="sponsor-element" className="w-[100%] overflow-visible">
+          <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-6 relative overflow-visible">
             <Swiper
               spaceBetween={25}
               breakpoints={{
@@ -109,13 +109,13 @@ export default function Slider(props: SliderProps) {
                 prevEl: ".swiper-button-prev",
                 nextEl: ".swiper-button-next",
               }}
-              className="h-full"
+              className="h-full overflow-visible"
             >
               {Sponsordata.map((sponsor, index) => {
                 return (
                   <div key={index} className="swiper-slide">
 
-                    <SwiperSlide className="bg-[#16161D] md:!h-[35rem] p-8 xl:p-16 rounded-xl mx-2 border-solid border border-[#39393F]">
+                    <SwiperSlide className="bg-[#16161D] md:!h-[35rem] p-8 xl:p-16 rounded-xl border-solid border border-[#39393F]">
 
                       <div className="flex flex-col items-center justify-around space-y-7 ">
 
