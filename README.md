@@ -12,7 +12,7 @@ If you are an IntelOwl contributor and you would like to add content on this blo
 
 ### **Adding up a new feature/testimonial/sponsor.**
 
-In [Constants folder](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/constants), you can add the content for specific section in thier specific file in form of these json objects, no need to scour the codebase.
+In [Constants folder](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/constants), you can add the content for specific section in their specific file in form of these json objects, no need to scour the codebase.
 
 Features in `featuresdata.ts`
 
