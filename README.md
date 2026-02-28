@@ -63,7 +63,7 @@ Make sure to go through the [contribute](https://intelowlproject.github.io/docs/
 
 While testing any markdown related changes, if you run into any issue, you can do `npx --no-install contentlayer build` to generate the contentlayer content yourself, through your vscode terminal.
 
-##### Run The Application locally
+##### Run the application locally
 
 ```commandline
 npm install
