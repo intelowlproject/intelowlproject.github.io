@@ -4,7 +4,7 @@
 
 ## Adding new content to the website
 
-### **Adding up blogs.**
+### **Adding Blogs**
 
 Add your article as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/Blogs) with the same title as the file.
 
