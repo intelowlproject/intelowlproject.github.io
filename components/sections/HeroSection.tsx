@@ -1,7 +1,6 @@
 "use client";
 
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
@@ -48,12 +47,12 @@ export default function HeroSection(props: HeroSectionProps) {
               From multiple sources with just a{" "}
               <span className="text-[#00ADEF]">single API request.</span>
             </h2>
-            <Link
+            <a
               href="https://intelowlproject.github.io/docs/IntelOwl/installation"
               className=" transform transition-transform duration-3 hover:scale-110 btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 mb-12 px-4 text-sm rounded w-32 h-10 mt-8 font-SpaceGrotesk text-center"
             >
               get started ➔
-            </Link>
+            </a>
           </div>
           <div className="bg-inherit w-full flex flex-col items-center justify-center px-10 ">
             <div className="flex flex-col relative  items-center justify-center bg-[#0D0D0E] rounded-2xl border border-[#212123] w-[80%] ">
@@ -96,12 +95,12 @@ export default function HeroSection(props: HeroSectionProps) {
                 <br /> API request.
               </span>
             </h2>
-            <Link
+            <a
               href="https://intelowlproject.github.io/docs/IntelOwl/installation"
               className="transform transition-transform duration-3 hover:scale-110 btn bg-[#00ADEE] hover:bg-blue-700 text-white py-2 px-4 rounded w-36 h-10 mt-16 font-SpaceGrotesk text-center"
             >
               get started ➔
-            </Link>
+            </a>
           </div>
           <div className="bg-inherit h-screen w-2/6 flex flex-col items-center justify-center px-10">
             <div className="flex flex-col relative  items-center justify-center bg-[#0D0D0E] rounded-2xl border border-[#212123] w-[80%] ">
