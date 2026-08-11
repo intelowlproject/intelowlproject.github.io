@@ -6,7 +6,7 @@
 
 ### **Adding up blogs.**
 
-Add your article as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/Blogs) with the same title as the file.
+Add your article as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/Blogs).The filename should match the article title.
 
 If you are an IntelOwl contributor and you would like to add content on this blog which is related to IntelOwl, feel free to fork this repository and submit an article! We will review it and publish it!
 
