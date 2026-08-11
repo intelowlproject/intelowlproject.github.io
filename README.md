@@ -4,7 +4,7 @@
 
 ## Adding new content to the website
 
-### **Adding up blogs.**
+### **Adding Blogs**
 
 Add your article as a new markdown file in the [Blogs directory](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/Blogs) with the same title as the file.
 
@@ -12,7 +12,7 @@ If you are an IntelOwl contributor and you would like to add content on this blo
 
 ### **Adding up a new feature/testimonial/sponsor.**
 
-In [Constants folder](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/constants), you can add the content for specific section in thier specific file in form of these json objects, no need to scour the codebase.
+In [Constants folder](https://github.com/intelowlproject/intelowlproject.github.io/tree/develop/constants), you can add the content for specific section in their specific file in form of these json objects, no need to scour the codebase.
 
 Features in `featuresdata.ts`
 
@@ -63,7 +63,7 @@ Make sure to go through the [contribute](https://intelowlproject.github.io/docs/
 
 While testing any markdown related changes, if you run into any issue, you can do `npx --no-install contentlayer build` to generate the contentlayer content yourself, through your vscode terminal.
 
-##### Run The Application locally
+##### Run the application locally
 
 ```commandline
 npm install
